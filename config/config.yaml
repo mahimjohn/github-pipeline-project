@@ -1,0 +1,12 @@
+github:
+        base_url: https://api.github.com
+        owner: huggingface
+        repo: transformers
+auth:
+        token_env: GITHUB_TOKEN
+
+endpoints:
+        commits:
+                path: /repos/{owner}/{repo}/commits
+                method: GET
+                params:
