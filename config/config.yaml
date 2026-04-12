@@ -9,4 +9,4 @@ endpoints:
         commits:
                 path: /repos/{owner}/{repo}/commits
                 method: GET
-                params:
+                
