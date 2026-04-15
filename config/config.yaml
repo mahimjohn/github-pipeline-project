@@ -1,5 +1,6 @@
 github:
         base_url: https://api.github.com
+repository:
         owner: huggingface
         repo: transformers
 auth:
@@ -10,3 +11,36 @@ endpoints:
                 path: /repos/{owner}/{repo}/commits
                 method: GET
                 
+        pull_requests:
+                path: /repos/{owner}/{repo}/pulls
+                method: GET
+                params:
+                        state: all
+
+        issues:
+                path: /repos/{owner}/{repo}/issues
+                method: GET
+                params:
+                        state: all
+
+        contributors:
+                path: /repos/{owner}/{repo}/contributors
+                method: GET
+
+pagination:
+        per_page: 50
+        max_pages: 5
+
+request:
+        timeout_seconds: 30
+        retries: 3
+
+paths:
+        bronze: data/bronze/github/
+        silver: data/silver/github/
+        gold: data/gold/marts/
+        logs: data/logs/
+
+pipeline:
+        run_mode: full
+        lookback_days: 30
