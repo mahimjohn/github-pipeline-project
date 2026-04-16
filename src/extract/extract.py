@@ -33,7 +33,7 @@ def extract(config):
         if response.status_code == 200:
             data = response.json()
             with open(f"{save_folder}{endpoint_name}.json", "w") as f:
-                json.dump(data, f)
+                json.dump(data, f, indent=4)
             print(f"✅ {endpoint_name} saved successfully.")
         else:
             print(f"❌ Failed to fetch {endpoint_name}. Status code: {response.status_code}")
