@@ -14,7 +14,7 @@ def transform_commit(config):
     
     print(f" Reading from: {data_path}")
     
-    # Read commits.json
+
     with open(f"{data_path}commits.json", "r") as f:
         commits_raw = json.load(f)
     
