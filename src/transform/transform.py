@@ -6,13 +6,13 @@ def transform_commit(config):
     bronze_path = config["paths"]["bronze"]
     silver_path = config["paths"]["silver"]
     
-    print("🧹 Starting commit data transformation...")
+    print("Starting commit data transformation...")
     
     all_folders = os.listdir(bronze_path)
     latest_folder = sorted(all_folders)[-1]
     data_path = f"{bronze_path}{latest_folder}/huggingface_transformers/"
     
-    print(f"📂 Reading from: {data_path}")
+    print(f" Reading from: {data_path}")
     
     # Read commits.json
     with open(f"{data_path}commits.json", "r") as f:
@@ -32,19 +32,19 @@ def transform_commit(config):
     os.makedirs(silver_path, exist_ok=True)
     df_commits.to_parquet(f"{silver_path}commits.parquet", index=False)
     
-    print(f"✅ Commits transformed! {len(df_commits)} rows saved to Silver!")
+    print(f"Commits transformed! {len(df_commits)} rows saved to Silver!")
 
 def transform_pull_request(config):
     bronze_path = config["paths"]["bronze"]
     silver_path = config["paths"]["silver"]
     
-    print("🧹 Starting pull request data transformation...")
+    print("Starting pull request data transformation...")
     
     all_folders = os.listdir(bronze_path)
     latest_folder = sorted(all_folders)[-1]
     data_path = f"{bronze_path}{latest_folder}/huggingface_transformers/"
     
-    print(f"📂 Reading from: {data_path}")
+    print(f" Reading from: {data_path}")
     
     with open(f"{data_path}pull_requests.json", "r") as f:
         pr_raw = json.load(f)
@@ -65,19 +65,19 @@ def transform_pull_request(config):
     os.makedirs(silver_path, exist_ok=True)
     df_pr.to_parquet(f"{silver_path}pull_requests.parquet", index=False)
     
-    print(f"✅ Pull requests transformed! {len(df_pr)} rows saved to Silver!")
+    print(f" Pull requests transformed! {len(df_pr)} rows saved to Silver!")
     
 def transform_issue(config):
     bronze_path = config["paths"]["bronze"]
     silver_path = config["paths"]["silver"]
     
-    print("🧹 Starting issue data transformation...")
+    print("Starting issue data transformation...")
     
     all_folders = os.listdir(bronze_path)
     latest_folder = sorted(all_folders)[-1]
     data_path = f"{bronze_path}{latest_folder}/huggingface_transformers/"
     
-    print(f"📂 Reading from: {data_path}")
+    print(f" Reading from: {data_path}")
     
     with open(f"{data_path}issues.json", "r") as f:
         issues_raw = json.load(f)
@@ -97,19 +97,19 @@ def transform_issue(config):
     os.makedirs(silver_path, exist_ok=True)
     df_issues.to_parquet(f"{silver_path}issues.parquet", index=False)
     
-    print(f"✅ Issues transformed! {len(df_issues)} rows saved to Silver!")
+    print(f" Issues transformed! {len(df_issues)} rows saved to Silver!")
     
 def transform_contributor(config):
     bronze_path = config["paths"]["bronze"]
     silver_path = config["paths"]["silver"]
     
-    print("🧹 Starting contributor data transformation...")
+    print("Starting contributor data transformation...")
     
     all_folders = os.listdir(bronze_path)
     latest_folder = sorted(all_folders)[-1]
     data_path = f"{bronze_path}{latest_folder}/huggingface_transformers/"
     
-    print(f"📂 Reading from: {data_path}")
+    print(f" Reading from: {data_path}")
     
     with open(f"{data_path}contributors.json", "r") as f:
         contributors_raw = json.load(f)
@@ -126,12 +126,12 @@ def transform_contributor(config):
     os.makedirs(silver_path, exist_ok=True)
     df_contributors.to_parquet(f"{silver_path}contributors.parquet", index=False)
     
-    print(f"✅ Contributors transformed! {len(df_contributors)} rows saved to Silver!")
+    print(f" Contributors transformed! {len(df_contributors)} rows saved to Silver!")
     
 def transform(config):
-    transform_commit(config)      # commits
-    transform_pull_request(config)  # pull requests
-    transform_issue(config)       # issues
-    transform_contributor(config) # contributors
+    transform_commit(config)
+    transform_pull_request(config)
+    transform_issue(config)
+    transform_contributor(config)
     
-    print("🎉 All transformations done!")
+    print("All transformations done!")
