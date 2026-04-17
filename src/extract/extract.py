@@ -27,14 +27,14 @@ def extract(config):
         path = path.replace("{owner}", owner).replace("{repo}", repo)
         url = base_url + path
         
-        print(f"📥 Fetching {endpoint_name} from {url}")
+        print(f"Fetching {endpoint_name} from {url}")
         response = r.get(url, headers=headers)
         
         if response.status_code == 200:
             data = response.json()
             with open(f"{save_folder}{endpoint_name}.json", "w") as f:
                 json.dump(data, f, indent=4)
-            print(f"✅ {endpoint_name} saved successfully.")
+            print(f"{endpoint_name} saved successfully.")
         else:
-            print(f"❌ Failed to fetch {endpoint_name}. Status code: {response.status_code}")
+            print(f"Failed to fetch {endpoint_name}. Status code: {response.status_code}")
             
