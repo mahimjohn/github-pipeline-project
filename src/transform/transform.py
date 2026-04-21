@@ -1,6 +1,7 @@
 import json
 import os
 import pandas as pd
+import mysql.connector as msql
 
 def transform_commit(config):
     bronze_path = config["paths"]["bronze"]
@@ -8,7 +9,8 @@ def transform_commit(config):
     
     print("Starting commit data transformation...")
     
-    all_folders = os.listdir(bronze_path)
+    all_folders = [f for f in os.listdir(bronze_path) 
+               if os.path.isdir(f"{bronze_path}{f}")]
     latest_folder = sorted(all_folders)[-1]
     data_path = f"{bronze_path}{latest_folder}/huggingface_transformers/"
     
@@ -40,7 +42,8 @@ def transform_pull_request(config):
     
     print("Starting pull request data transformation...")
     
-    all_folders = os.listdir(bronze_path)
+    all_folders = [f for f in os.listdir(bronze_path) 
+               if os.path.isdir(f"{bronze_path}{f}")]
     latest_folder = sorted(all_folders)[-1]
     data_path = f"{bronze_path}{latest_folder}/huggingface_transformers/"
     
@@ -73,7 +76,8 @@ def transform_issue(config):
     
     print("Starting issue data transformation...")
     
-    all_folders = os.listdir(bronze_path)
+    all_folders = [f for f in os.listdir(bronze_path) 
+               if os.path.isdir(f"{bronze_path}{f}")]
     latest_folder = sorted(all_folders)[-1]
     data_path = f"{bronze_path}{latest_folder}/huggingface_transformers/"
     
@@ -105,7 +109,8 @@ def transform_contributor(config):
     
     print("Starting contributor data transformation...")
     
-    all_folders = os.listdir(bronze_path)
+    all_folders = [f for f in os.listdir(bronze_path) 
+               if os.path.isdir(f"{bronze_path}{f}")]
     latest_folder = sorted(all_folders)[-1]
     data_path = f"{bronze_path}{latest_folder}/huggingface_transformers/"
     

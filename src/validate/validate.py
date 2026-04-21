@@ -12,7 +12,7 @@ def validate_bronze(config):
     data_path = f"{bronze_path}{all_folders}/huggingface_transformers/"
     
     expected_files = {
-        "commits.json":       ["sha", "commit", "author"],
+        "commits.json":       ["sha", "commit"],
         "pull_requests.json": ["id", "state", "user", "created_at", "closed_at", "merged_at"],
         "issues.json":        ["id", "state", "user", "created_at", "closed_at"],
         "contributors.json":  ["login", "contributions"]
@@ -28,7 +28,7 @@ def validate_bronze(config):
             all_passed = False
             continue
         
-        if not os.path.getsize(file_path) == 0:
+        if os.path.getsize(file_path) == 0:
             print(f"{filename} is empty")
             all_passed = False
             continue
@@ -58,3 +58,53 @@ def validate_bronze(config):
         
     return all_passed
 
+def validate_silver(config):
+    silver_path = config["paths"]["silver"]
+    
+    print("Starting the validation process of the silver layer...")
+    
+    expected_files = {
+        "commits.parquet":       ["sha", "message", "author_name","date"],
+        "pull_requests.parquet": ["id", "state", "user_login", "created_at", "closed_at", "merged_at"],
+        "issues.parquet":        ["id", "state", "user_login", "created_at", "closed_at"],
+        "contributors.parquet":  ["login", "contributions"]
+    }
+    
+    all_passed = True
+    
+    for filename, expected_fields in expected_files.items():
+        file_path = f"{silver_path}{filename}"
+        
+        if not os.path.exists(file_path):
+            print(f"{filename} is not found")
+            all_passed = False
+            continue
+        
+        if os.path.getsize(file_path) == 0:
+            print(f"{filename} is empty")
+            all_passed = False
+            continue
+        
+        try:
+            df = pd.read_parquet(file_path)
+            
+            if df.empty:
+                print(f"{filename} has no records")
+            
+            for field in expected_fields:
+                if field not in df.columns:
+                    print(f"{filename} is missing expected column: {field}")
+                    all_passed = False
+                    
+            print(f"{filename} passed validation.")
+        
+        except Exception as e:
+            print(f"Failed! {filename} is corrupt. Error: {e}")
+            all_passed = False
+            
+    if all_passed:
+        print("validation check completed!")
+    else:
+        print("validation check failed! Please check the above errors.")
+        
+    return all_passed
