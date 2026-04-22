@@ -1,7 +1,6 @@
 import json
 import os
 import pandas as pd
-import mysql.connector as msql
 
 def transform_commit(config):
     bronze_path = config["paths"]["bronze"]
