@@ -1,0 +1,2462 @@
+[
+    {
+        "sha": "77c0e6e7ce5537558f07bb9147d0df4a0132e6f3",
+        "node_id": "C_kwDOCUB6odoAKDc3YzBlNmU3Y2U1NTM3NTU4ZjA3YmI5MTQ3ZDBkZjRhMDEzMmU2ZjM",
+        "commit": {
+            "author": {
+                "name": "Joshua Lochner",
+                "email": "admin@xenova.com",
+                "date": "2026-04-22T08:56:44Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-22T08:56:44Z"
+            },
+            "message": "[nemotron_h] Add support for MLP mixers (#44763)\n\n* Support mlp mixers\n\n* Fix forward\n\n* make changes to modular\n\n* up\n\n* tyle\n\n* nit\n\n* update\n\n* update\n\n* up[\n\n* nit\n\n---------\n\nCo-authored-by: Arthur <arthur.zucker@gmail.com>",
+            "tree": {
+                "sha": "87e07d1b299beb7cdee1849137e1428faa97f100",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/87e07d1b299beb7cdee1849137e1428faa97f100"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/77c0e6e7ce5537558f07bb9147d0df4a0132e6f3",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp6I1MCRC1aQ7uu5UhlAAAukwQAHw86l78932UgYNmM3Z8xWoU\nOIDNoS2g5/mCkKo6XleZdBEZ3KG55o8b6C0GWnH90QD64iaPRtGx0Q8J7jdC1ufs\nxfGs5SJ5oXl+iQ48q1SuewlJEMHzCO5lGwI6kf88JYyAh3cMdIUm+fba647wx8JS\nEKXGhYj1W9mKmMDKfwfVXQ2RnJ28+v7hgIzXp7TnY7VhK6RAQPwYIf7aE/bR8/3x\nrcVYMxwAG7o/bvFM95rMeJJGBMuRZ/ydIn8iyxbTl+xfMQQ4Ow+8+DpfVLNU1nC1\n7rVSRFCLJLpbYd40FscywYiXgdmiWQZc04xdzPM//iDLcRe3AGAYJBA6GBJSijYD\nC+GbZunbShV+UqWmHKYpFH8WmDnL6eh0sWe7jdh7rDLmGYG5CZxmExU9D4uner4r\npIehLZoDAxlllTadEJspDscb9NWjBomS4o+uRygwxsOkvXFVNJAHEOfCujDz49ye\nsq0/mq35XT4AWDOCgKos6OeDF9Nm1gUFQJvxzXNgQl+5I6blZhu1qPqjs9koV1Yd\nStIBuVJvW8zVFtKTY6jSLKlDdWrbf1F64DoKstR0J9RwG72uWYEjt/DAFOMl6VKR\nzaHvxQV+VHU/YoP5DI4VCs/nYOpCpQYj4xTyPYUbxwoTedYZGpB/DzRLZQQZqiNM\nvPpbm25WsJNVkxpnAEb1\n=Q7aG\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 87e07d1b299beb7cdee1849137e1428faa97f100\nparent e737fb8671d903d5128d673abca76c1a26b4fa60\nauthor Joshua Lochner <admin@xenova.com> 1776848204 -0400\ncommitter GitHub <noreply@github.com> 1776848204 +0200\n\n[nemotron_h] Add support for MLP mixers (#44763)\n\n* Support mlp mixers\n\n* Fix forward\n\n* make changes to modular\n\n* up\n\n* tyle\n\n* nit\n\n* update\n\n* update\n\n* up[\n\n* nit\n\n---------\n\nCo-authored-by: Arthur <arthur.zucker@gmail.com>",
+                "verified_at": "2026-04-22T08:56:44Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/77c0e6e7ce5537558f07bb9147d0df4a0132e6f3",
+        "html_url": "https://github.com/huggingface/transformers/commit/77c0e6e7ce5537558f07bb9147d0df4a0132e6f3",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/77c0e6e7ce5537558f07bb9147d0df4a0132e6f3/comments",
+        "author": {
+            "login": "xenova",
+            "id": 26504141,
+            "node_id": "MDQ6VXNlcjI2NTA0MTQx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26504141?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/xenova",
+            "html_url": "https://github.com/xenova",
+            "followers_url": "https://api.github.com/users/xenova/followers",
+            "following_url": "https://api.github.com/users/xenova/following{/other_user}",
+            "gists_url": "https://api.github.com/users/xenova/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/xenova/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/xenova/subscriptions",
+            "organizations_url": "https://api.github.com/users/xenova/orgs",
+            "repos_url": "https://api.github.com/users/xenova/repos",
+            "events_url": "https://api.github.com/users/xenova/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/xenova/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "e737fb8671d903d5128d673abca76c1a26b4fa60",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/e737fb8671d903d5128d673abca76c1a26b4fa60",
+                "html_url": "https://github.com/huggingface/transformers/commit/e737fb8671d903d5128d673abca76c1a26b4fa60"
+            }
+        ]
+    },
+    {
+        "sha": "e737fb8671d903d5128d673abca76c1a26b4fa60",
+        "node_id": "C_kwDOCUB6odoAKGU3MzdmYjg2NzFkOTAzZDUxMjhkNjczYWJjYTc2YzFhMjZiNGZhNjA",
+        "commit": {
+            "author": {
+                "name": "Wang, Yi",
+                "email": "yi.a.wang@intel.com",
+                "date": "2026-04-22T06:45:30Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-22T06:45:30Z"
+            },
+            "message": "add expert parallelism for gemma-4-26B-A4B-it (#45279)\n\n* add expert parallelism for gemma-4-26B-A4B-it\n\nSigned-off-by: Wang, Yi <yi.a.wang@intel.com>\n\n* update\n\nSigned-off-by: Wang, Yi <yi.a.wang@intel.com>\n\n---------\n\nSigned-off-by: Wang, Yi <yi.a.wang@intel.com>",
+            "tree": {
+                "sha": "f3f2888b00736fe644ca6899e91aa4e37bf5ef27",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/f3f2888b00736fe644ca6899e91aa4e37bf5ef27"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/e737fb8671d903d5128d673abca76c1a26b4fa60",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp6HGhCRC1aQ7uu5UhlAAAZvYQAD8MRvab5eqMrcTApjcNYTwe\nIBj7uLsXjxi/yi+ca3DCbwSGj9XW4XiRKpV/69GuoAza1FAbRDc0R9dodx7pP02b\nBDYcy3JCqAcjqaoAirCL0PXiYRMEro3H4RfEHlJ0C0r490v9gUBFjq156+Vj2Lsu\nrXquCr9oQIsn4/v8TBqj8F4cHYLXivY98ZIup5poK35smVEgQF2qV0osi9cdQ4BG\nSh/7n84pb0SeNLEkn3W1ij98ZJ0XoFz11Ixa2Iv1vMG6liu0AlBhTKGhX83qke0u\nyexO57e9cWqjowEVcWfFwrgE9dxp72T23Dy+36aqFThrWWkeppUJdjVXZG05nbvu\n75/1xYdfXxZQvGEmvcRrsfM/urlXWsX3abpdssvIxzpywt7PTpCV6IRv/+g1LsIP\n4MwkhXbgMuy6vEddd9lPYT6dTGpESYV3ewKLGTm8xHyTTpLTW/Ufpuejszcuz1I0\n4x6pEXu3MFlmP3u0Axq1b+eBBs9JJDagv+bj0lCwk+5pNmPEGJNxYHh8E02tvUt8\nMsIceJwsYgocV0bho82XomipNmz5CHWMsMs1g2BYGDqpWV4W9mpoGJ+wHMscOF4B\nJyjHj7plLbH1M/JP4jvRZSrHGk/b4gRBWw0Ie/E5JhkZY/e3Ydyiutck7RX2E1ZD\ntYI0Ax2hBXMuiqkUsGWs\n=jzvU\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree f3f2888b00736fe644ca6899e91aa4e37bf5ef27\nparent 5e23868450416cbbfcb2ae81f71364b99b4ad25d\nauthor Wang, Yi <yi.a.wang@intel.com> 1776840330 +0800\ncommitter GitHub <noreply@github.com> 1776840330 +0000\n\nadd expert parallelism for gemma-4-26B-A4B-it (#45279)\n\n* add expert parallelism for gemma-4-26B-A4B-it\n\nSigned-off-by: Wang, Yi <yi.a.wang@intel.com>\n\n* update\n\nSigned-off-by: Wang, Yi <yi.a.wang@intel.com>\n\n---------\n\nSigned-off-by: Wang, Yi <yi.a.wang@intel.com>",
+                "verified_at": "2026-04-22T06:58:42Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/e737fb8671d903d5128d673abca76c1a26b4fa60",
+        "html_url": "https://github.com/huggingface/transformers/commit/e737fb8671d903d5128d673abca76c1a26b4fa60",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/e737fb8671d903d5128d673abca76c1a26b4fa60/comments",
+        "author": {
+            "login": "sywangyi",
+            "id": 36058628,
+            "node_id": "MDQ6VXNlcjM2MDU4NjI4",
+            "avatar_url": "https://avatars.githubusercontent.com/u/36058628?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sywangyi",
+            "html_url": "https://github.com/sywangyi",
+            "followers_url": "https://api.github.com/users/sywangyi/followers",
+            "following_url": "https://api.github.com/users/sywangyi/following{/other_user}",
+            "gists_url": "https://api.github.com/users/sywangyi/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/sywangyi/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/sywangyi/subscriptions",
+            "organizations_url": "https://api.github.com/users/sywangyi/orgs",
+            "repos_url": "https://api.github.com/users/sywangyi/repos",
+            "events_url": "https://api.github.com/users/sywangyi/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/sywangyi/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "5e23868450416cbbfcb2ae81f71364b99b4ad25d",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/5e23868450416cbbfcb2ae81f71364b99b4ad25d",
+                "html_url": "https://github.com/huggingface/transformers/commit/5e23868450416cbbfcb2ae81f71364b99b4ad25d"
+            }
+        ]
+    },
+    {
+        "sha": "5e23868450416cbbfcb2ae81f71364b99b4ad25d",
+        "node_id": "C_kwDOCUB6odoAKDVlMjM4Njg0NTA0MTZjYmJmY2IyYWU4MWY3MTM2NGI5OWI0YWQyNWQ",
+        "commit": {
+            "author": {
+                "name": "Kartik Gupta",
+                "email": "118480442+sirzechs66@users.noreply.github.com",
+                "date": "2026-04-22T06:37:30Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-22T06:37:30Z"
+            },
+            "message": "Add full GGUF loading support for GPT\u2011OSS (fixes #43366, supersedes #43757) latest (#45506)\n\n* Add GPT-OSS GGUF support with YaRN rope scaling reconstruction\n\n* Add GGUF loading test suite for GPT\u2011OSS\n\n* docs: add GGUF loading section to gpt_oss.md\n\n* fix: correct import of GptOssTensorProcessor in test; remove from model __all__\n\n* Finalize GPT\u2011OSS GGUF support: move test, adjust config reconstruction\n\n* fixed docs not closing example bracket\n\n* Fix lint: remove trailing whitespace\n\n* Fix tensor construction consistency\n\n* reverting to original docs",
+            "tree": {
+                "sha": "4ce3decb47f12ac95b828b7f48e8abe578d665a2",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/4ce3decb47f12ac95b828b7f48e8abe578d665a2"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/5e23868450416cbbfcb2ae81f71364b99b4ad25d",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp6HGgCRC1aQ7uu5UhlAAAhGUQAJFu9j76d+OTOYaCPms3jlkq\nbKYB4j2g6Err5ydGL1pmJ/mW6Et95FDIvW5X6b6qBQl11NIuxEEkjq5xUOM2zbm8\nDeNdA7g6QYMgKChkWhBN6AQRXP6UsbCT5D9xspf40+th/UHnee4c+XpgVAg9VYRm\npnOJ7vBsggq4qi2F2yZi6TEAA6lxaZ+jdRgHktzyKISJo2kPwuXyCh4k/U+kwDn0\n1B59yBcutN71wxjcDqma03Zxfg4oaLEl0H+Whb1ME8xUhkPGnoX9zOsOb4c/8SMb\n5Y3MxaagjZmIQ3qavdtAzEyg3BPL8tnhcYS5k72WCJWdSrphf9r+SH87qjc9IZ6o\naFun08yLBrDc3urj4olhxO9nbb8Tf5Qvg9VmPw3mvs4Pmy4GIVltnE7QYO7fp5rC\nY4YpcvODPsD2X6WHKc4NqN0CC0AW6exVIwc0plAWbcK0bJUB85zlzIHvSkNEKXcU\n/3OUnJtakxZ7mdG3uTZDi4H/DE+LxUPCIup0Q8/7dwHEkNVpucrAn6956baxBJnB\ng78ZakfK69GIGaL9VMg/7P/Bqm4vLo/Pj1Rzvk1Qjg3bLjvlr5aCkLWSvZGM3ewo\nvblFfkgi8sPDPwGBuCAqD30CZ30WDb7GnG1eRoodA5dSCFmcmFJ3bHQtqsvqicqp\nliP6LJkZp2QnU5lS0pRy\n=QSBb\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 4ce3decb47f12ac95b828b7f48e8abe578d665a2\nparent 2da596b0d0da5753d530c37b33f69d9296dc375e\nauthor Kartik Gupta <118480442+sirzechs66@users.noreply.github.com> 1776839850 +0530\ncommitter GitHub <noreply@github.com> 1776839850 +0000\n\nAdd full GGUF loading support for GPT\u2011OSS (fixes #43366, supersedes #43757) latest (#45506)\n\n* Add GPT-OSS GGUF support with YaRN rope scaling reconstruction\n\n* Add GGUF loading test suite for GPT\u2011OSS\n\n* docs: add GGUF loading section to gpt_oss.md\n\n* fix: correct import of GptOssTensorProcessor in test; remove from model __all__\n\n* Finalize GPT\u2011OSS GGUF support: move test, adjust config reconstruction\n\n* fixed docs not closing example bracket\n\n* Fix lint: remove trailing whitespace\n\n* Fix tensor construction consistency\n\n* reverting to original docs",
+                "verified_at": "2026-04-22T06:58:41Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/5e23868450416cbbfcb2ae81f71364b99b4ad25d",
+        "html_url": "https://github.com/huggingface/transformers/commit/5e23868450416cbbfcb2ae81f71364b99b4ad25d",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/5e23868450416cbbfcb2ae81f71364b99b4ad25d/comments",
+        "author": {
+            "login": "sirzechs66",
+            "id": 118480442,
+            "node_id": "U_kgDOBw_eOg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/118480442?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sirzechs66",
+            "html_url": "https://github.com/sirzechs66",
+            "followers_url": "https://api.github.com/users/sirzechs66/followers",
+            "following_url": "https://api.github.com/users/sirzechs66/following{/other_user}",
+            "gists_url": "https://api.github.com/users/sirzechs66/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/sirzechs66/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/sirzechs66/subscriptions",
+            "organizations_url": "https://api.github.com/users/sirzechs66/orgs",
+            "repos_url": "https://api.github.com/users/sirzechs66/repos",
+            "events_url": "https://api.github.com/users/sirzechs66/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/sirzechs66/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "2da596b0d0da5753d530c37b33f69d9296dc375e",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/2da596b0d0da5753d530c37b33f69d9296dc375e",
+                "html_url": "https://github.com/huggingface/transformers/commit/2da596b0d0da5753d530c37b33f69d9296dc375e"
+            }
+        ]
+    },
+    {
+        "sha": "2da596b0d0da5753d530c37b33f69d9296dc375e",
+        "node_id": "C_kwDOCUB6odoAKDJkYTU5NmIwZDBkYTU3NTNkNTMwYzM3YjMzZjY5ZDkyOTZkYzM3NWU",
+        "commit": {
+            "author": {
+                "name": "Ryan Mullins",
+                "email": "ryanmullins@google.com",
+                "date": "2026-04-22T06:58:27Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-22T06:58:27Z"
+            },
+            "message": "Update Gemma4 weight conversion script (#45328)\n\n* fix: KV cache sharing\n\n* fix: duplicate shared_kv_states in function params\n\n* fix: module style\n\n* revert: modeling changes",
+            "tree": {
+                "sha": "8820ca5360fd2d4ce05c91908601a8fe3d094d2c",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/8820ca5360fd2d4ce05c91908601a8fe3d094d2c"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/2da596b0d0da5753d530c37b33f69d9296dc375e",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp6HGTCRC1aQ7uu5UhlAAAuZkQAH6YH7fdCFOHxj4rKCXzqC8n\ndNfBZcwWWjM0qt62W3ovk3KRIQUtOqkVxjdJ70ImRE1FXIWrEFl8sscUK40chTkw\n6XshUt8FMk5JpJDVEk5Pi4Ie6oEaO3KPKxpr7Vbf/dNAYcbxMTMR3XKWSTPoYBhy\n/RpLwDoRGOTEoLXLmzJ57CLGd8eULmWxjzKraSiK/fBcXKITbvoTbUqMlESSzMd/\nbO2ftFExy5vFbc6iW8GPzruixN9MnL70TlGU6+1PkO/MtzGhZHrLswYgIoiKirlP\nM76bRpfXXEJZKj5RTwh3lAOzxNBuXIxWidl7rjhLmWr+IO17rIJAB/cHaXMDwgiT\nR/ojAsRd8RpBJ/XQP1x2FOkj5ngArbaqMzMX0OaWMLwk/A7TMa7TFaB/UNI0/9A+\nnBLQY6O+XNVwj96J55GlM9nV+2ePCJBHJYHhjMms2hOlHFhtjmM2d5SjrfaZYLlD\nzcrr83lYt/jKHRC1utmUZTkrfxXNrTgv/NxyzGGNuWKKcGv5k10d/Ml3+9Yp+OO7\n72pgRsgLG573Z5gra1JMijozXyr6G03letP7ZxEpP4p07VrF0vFOOUb5F6XQUyzv\nl6GTtfq36dZTkJC9aFlYgRNUbeX5F5xvlQIxP/neBuCNqShstXKYvn+UTjx+Hqru\nLMYfS6pnHRvi19jmiaIk\n=6cF9\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 8820ca5360fd2d4ce05c91908601a8fe3d094d2c\nparent 71d1a7b76b5be3ab34966cb109198054588cda0c\nauthor Ryan Mullins <ryanmullins@google.com> 1776841107 -0400\ncommitter GitHub <noreply@github.com> 1776841107 +0200\n\nUpdate Gemma4 weight conversion script (#45328)\n\n* fix: KV cache sharing\n\n* fix: duplicate shared_kv_states in function params\n\n* fix: module style\n\n* revert: modeling changes",
+                "verified_at": "2026-04-22T06:58:28Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/2da596b0d0da5753d530c37b33f69d9296dc375e",
+        "html_url": "https://github.com/huggingface/transformers/commit/2da596b0d0da5753d530c37b33f69d9296dc375e",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/2da596b0d0da5753d530c37b33f69d9296dc375e/comments",
+        "author": {
+            "login": "RyanMullins",
+            "id": 868555,
+            "node_id": "MDQ6VXNlcjg2ODU1NQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/868555?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/RyanMullins",
+            "html_url": "https://github.com/RyanMullins",
+            "followers_url": "https://api.github.com/users/RyanMullins/followers",
+            "following_url": "https://api.github.com/users/RyanMullins/following{/other_user}",
+            "gists_url": "https://api.github.com/users/RyanMullins/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/RyanMullins/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/RyanMullins/subscriptions",
+            "organizations_url": "https://api.github.com/users/RyanMullins/orgs",
+            "repos_url": "https://api.github.com/users/RyanMullins/repos",
+            "events_url": "https://api.github.com/users/RyanMullins/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/RyanMullins/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "71d1a7b76b5be3ab34966cb109198054588cda0c",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/71d1a7b76b5be3ab34966cb109198054588cda0c",
+                "html_url": "https://github.com/huggingface/transformers/commit/71d1a7b76b5be3ab34966cb109198054588cda0c"
+            }
+        ]
+    },
+    {
+        "sha": "71d1a7b76b5be3ab34966cb109198054588cda0c",
+        "node_id": "C_kwDOCUB6odoAKDcxZDFhN2I3NmI1YmUzYWIzNDk2NmNiMTA5MTk4MDU0NTg4Y2RhMGM",
+        "commit": {
+            "author": {
+                "name": "Cyril Vallez",
+                "email": "cyril.vallez@huggingface.co",
+                "date": "2026-04-22T06:51:46Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-22T06:51:46Z"
+            },
+            "message": "Move some conversion mappings to PrefixChange (#45567)\n\nswitch",
+            "tree": {
+                "sha": "00be12b312cf6df71ba15813d81e71c61cd08b0b",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/00be12b312cf6df71ba15813d81e71c61cd08b0b"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/71d1a7b76b5be3ab34966cb109198054588cda0c",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp6HACCRC1aQ7uu5UhlAAAzpwQAHNEDyW6cvFwhq/QDmITAPCx\n/mv776W0fCyTI4HMsIqLgZg32lO3eBBLw3LoS83WElU5tnklUGheW53cjwqRa8xR\niBKcXf60kZ5pcKNSQTihVHOVVYJFCwW/RF7K/u1ai/Y5CvP4ZdZFN5U3iJnnm/hg\nZNd7s7zRDp1OLQATQbLlkif+3zfMYqVJUAuiRiksryKuE9w3d+TV4ZiqUoK4DfgX\nyyeD3CFEYULE55QKjtFcRKyTeq51FuOjSoGTHPYdYM5dHCbolGe+aTvpplnLGfOQ\njMHqOpXgX4dSdWYOIWdYiwK9R+eyGXRcRGbIB0L+jLFLZrQNoJFkAa05aWA3/VfW\n5xqAZGRzgfwYExkR/Hzigtu0HQF8RyfuW8Xu2La+cwEn3236QEw4Mdqx7MFUhQXz\nQFT5mDAIkYvM3UiCP31uUuyHWMgAQyEnY93Kii98EMqyjnDqW3hWNPyy5Qw6yN5G\nV2nCIaJohXTVngLafYieVgiRi8oft3tzH+Z1QW2DQY48BNC9rVFKTr93KvXt4Tcy\n1wwN73IJaU7kWiq3sJDINH2JRWavF9CradV/VsnJ5imC38VkY1drkuLEARFuweS3\nbJBr8fHv24Cmayf0NUZR/4r7zLsW7XF7jK/SK4F8QngWAadcNU1RaczhAXp73BUE\np4mFvtc5l3ljIUTIpG34\n=rXIf\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 00be12b312cf6df71ba15813d81e71c61cd08b0b\nparent f51cf50619d7611c2c031abf6beee21db2fca8a9\nauthor Cyril Vallez <cyril.vallez@huggingface.co> 1776840706 +0200\ncommitter GitHub <noreply@github.com> 1776840706 +0200\n\nMove some conversion mappings to PrefixChange (#45567)\n\nswitch",
+                "verified_at": "2026-04-22T06:51:46Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/71d1a7b76b5be3ab34966cb109198054588cda0c",
+        "html_url": "https://github.com/huggingface/transformers/commit/71d1a7b76b5be3ab34966cb109198054588cda0c",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/71d1a7b76b5be3ab34966cb109198054588cda0c/comments",
+        "author": {
+            "login": "Cyrilvallez",
+            "id": 71554963,
+            "node_id": "MDQ6VXNlcjcxNTU0OTYz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/71554963?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Cyrilvallez",
+            "html_url": "https://github.com/Cyrilvallez",
+            "followers_url": "https://api.github.com/users/Cyrilvallez/followers",
+            "following_url": "https://api.github.com/users/Cyrilvallez/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Cyrilvallez/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Cyrilvallez/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Cyrilvallez/subscriptions",
+            "organizations_url": "https://api.github.com/users/Cyrilvallez/orgs",
+            "repos_url": "https://api.github.com/users/Cyrilvallez/repos",
+            "events_url": "https://api.github.com/users/Cyrilvallez/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Cyrilvallez/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "f51cf50619d7611c2c031abf6beee21db2fca8a9",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/f51cf50619d7611c2c031abf6beee21db2fca8a9",
+                "html_url": "https://github.com/huggingface/transformers/commit/f51cf50619d7611c2c031abf6beee21db2fca8a9"
+            }
+        ]
+    },
+    {
+        "sha": "f51cf50619d7611c2c031abf6beee21db2fca8a9",
+        "node_id": "C_kwDOCUB6odoAKGY1MWNmNTA2MTlkNzYxMWMyYzAzMWFiZjZiZWVlMjFkYjJmY2E4YTk",
+        "commit": {
+            "author": {
+                "name": "Tarek Ziade",
+                "email": "tarek@ziade.org",
+                "date": "2026-04-22T06:28:09Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-22T06:28:09Z"
+            },
+            "message": "fix table update versions (#45544)\n\n* fix table upate versions\n\n* used released version",
+            "tree": {
+                "sha": "b8d52e127e0a26b7f9b3f1d54fd2c4cefb7c7a9e",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/b8d52e127e0a26b7f9b3f1d54fd2c4cefb7c7a9e"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/f51cf50619d7611c2c031abf6beee21db2fca8a9",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp6GqJCRC1aQ7uu5UhlAAAIWYQAFberT79K7qblXYIhB1RFP6V\nEn5//ewBqdP8km8A57rVKOylKdHjijG9dpSCxtM9ggDgXKHAEATabKoRQuJF3K71\nvCo7/rHOxBxQ/aJOV+Hm9NWhaxu81aXRjqSWAYKuU/GZqBXzLCmeh2vKwJUyvh+3\n+uElb0QIu2oCxGxrtqydTwWKXJ7gC/ZsXI3kjhlMtBC9+tRBQYgWciwMKOHh4CRG\nl3d6XKSlTBBbn6xWki1S/NgI9VR/owrq++GvEsq5OgcnErWMjm/rluV8Ku+aRwPu\n1pEPEbx9a82IZa0VGE5QYY8yeeSPXZPmHL8zgI0X91/p5RBsySpMdYj1pY60nVU1\nDxKhX5gIld8q/nglmFo5v6w1Rbol7YUQcySBMfZ1evlJ7P+wxT4Tk2R6mxwHwEbZ\nPjPZ0LyrBbf/xT3RxofBqmYgBDn2BqQzcjcFhfy/ECpETWXjjBMZeZB0n3W+mSXZ\nwdvMm4T9WXXCp4HD/HnSIG7yAdi4CwxQkRYN6iOkuHqh2cpN7oTh4GXSPSK/j5CE\ngaz2d33RTyJ3VSa2QmAGWFZ6qCi9ATqiFhsanWlOfsDsZ3shQgQ06sj6VlCx8P5o\n/cgWNVglxC2zNfYfwDM1cfjvz1w+fhWqIX0Sk7ze3j9LjmucH3gCJtpufTk8nlOf\nxszbVQTSmJhLxULlZsy5\n=o6x/\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree b8d52e127e0a26b7f9b3f1d54fd2c4cefb7c7a9e\nparent 8fb7c7e57ab7658ca930ede58118a9c0f9f5f206\nauthor Tarek Ziade <tarek@ziade.org> 1776839289 +0200\ncommitter GitHub <noreply@github.com> 1776839289 +0000\n\nfix table update versions (#45544)\n\n* fix table upate versions\n\n* used released version",
+                "verified_at": "2026-04-22T06:28:26Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/f51cf50619d7611c2c031abf6beee21db2fca8a9",
+        "html_url": "https://github.com/huggingface/transformers/commit/f51cf50619d7611c2c031abf6beee21db2fca8a9",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/f51cf50619d7611c2c031abf6beee21db2fca8a9/comments",
+        "author": {
+            "login": "tarekziade",
+            "id": 250019,
+            "node_id": "MDQ6VXNlcjI1MDAxOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/250019?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tarekziade",
+            "html_url": "https://github.com/tarekziade",
+            "followers_url": "https://api.github.com/users/tarekziade/followers",
+            "following_url": "https://api.github.com/users/tarekziade/following{/other_user}",
+            "gists_url": "https://api.github.com/users/tarekziade/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/tarekziade/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/tarekziade/subscriptions",
+            "organizations_url": "https://api.github.com/users/tarekziade/orgs",
+            "repos_url": "https://api.github.com/users/tarekziade/repos",
+            "events_url": "https://api.github.com/users/tarekziade/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/tarekziade/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "8fb7c7e57ab7658ca930ede58118a9c0f9f5f206",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/8fb7c7e57ab7658ca930ede58118a9c0f9f5f206",
+                "html_url": "https://github.com/huggingface/transformers/commit/8fb7c7e57ab7658ca930ede58118a9c0f9f5f206"
+            }
+        ]
+    },
+    {
+        "sha": "8fb7c7e57ab7658ca930ede58118a9c0f9f5f206",
+        "node_id": "C_kwDOCUB6odoAKDhmYjdjN2U1N2FiNzY1OGNhOTMwZWRlNTgxMThhOWMwZjlmNWYyMDY",
+        "commit": {
+            "author": {
+                "name": "Remy",
+                "email": "remy@huggingface.co",
+                "date": "2026-04-22T05:37:26Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-22T05:37:26Z"
+            },
+            "message": "Add disable_mmap kwarg to from_pretrained with hf-mount auto-detection (#45547)\n\n* feat(loading): add disable_mmap kwarg with hf-mount auto-detection\n\n* Apply repo consistency fixes\n\n* fix: apply review nits (simplify multi-shard check, use assert_close in test)\n\n---------\n\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
+            "tree": {
+                "sha": "aec27ab5164df7a7bbc99ddca745c4168ab3b230",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/aec27ab5164df7a7bbc99ddca745c4168ab3b230"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/8fb7c7e57ab7658ca930ede58118a9c0f9f5f206",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp6F6WCRC1aQ7uu5UhlAAAHlYQAGwPIPu/N59L/BTiNNXh1jyr\ng/Ue9bBmfCn5LiksFH7JpFaGoF4cYkKmUYqSFNjyi7Pv3ucNvJJUIPY7HapB1163\n/Ioop0NO9nKzaFg2VaKU7d+aB1Vv5IkH8Nh8LV8yNilNjg4yDu6kY19/5OtV1eHw\nkxchN85MmjAPMmJ2dPgUkyGrpJqU32OVGpVpYc7RzIpRgTl2YkcHnz5dfQQNj3dn\ne6DN8kVH1afTmx/w8BTp0Lo1oPOLvI8fb6EpSLrkuKzrYw1cQGk5ePAhJ4y7IDdf\n+QVrMPPGaxUxy7HH9kDy4iNmH4Ac6nIMXWO9E73juZsizeKoIpmNr/kGFYksGCVg\nhwJVHxzINVYg8q2VmDCtwy0Gn/W32DcNHVUmMPm3dmhRlWqtNB4waWQjtxl9SlPs\nzmRNtSvRD60qj2GY9DodslOFE1caqR1GwVF0J96xdh9qu4ewnhw8hPL3QpQHFMZx\nHl6QKTeB1gacFpS6+Pit2w+DmlP+5l1uUP+BAhInkmUOasEWs4WAC/NVbITbDAmI\n1MMQ4zXxYhfwjsrWLHcsVbqf1OhF5Agbwd83gOma7rR9lvgMDnRosDw0wE7kV3As\nT4vvpncaV5aTYtbyRazc7Wn+QZRNIAJdMUvU2w8rg057DFcW7KA59T8mPr8lbWd/\nrkpO11HS98CuqLxkuFLJ\n=Zftk\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree aec27ab5164df7a7bbc99ddca745c4168ab3b230\nparent cb0adddc36827c1a662211c069f05e75fd1ff27c\nauthor Remy <remy@huggingface.co> 1776836246 +0200\ncommitter GitHub <noreply@github.com> 1776836246 +0200\n\nAdd disable_mmap kwarg to from_pretrained with hf-mount auto-detection (#45547)\n\n* feat(loading): add disable_mmap kwarg with hf-mount auto-detection\n\n* Apply repo consistency fixes\n\n* fix: apply review nits (simplify multi-shard check, use assert_close in test)\n\n---------\n\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
+                "verified_at": "2026-04-22T05:37:27Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/8fb7c7e57ab7658ca930ede58118a9c0f9f5f206",
+        "html_url": "https://github.com/huggingface/transformers/commit/8fb7c7e57ab7658ca930ede58118a9c0f9f5f206",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/8fb7c7e57ab7658ca930ede58118a9c0f9f5f206/comments",
+        "author": {
+            "login": "rtrompier",
+            "id": 2504924,
+            "node_id": "MDQ6VXNlcjI1MDQ5MjQ=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2504924?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rtrompier",
+            "html_url": "https://github.com/rtrompier",
+            "followers_url": "https://api.github.com/users/rtrompier/followers",
+            "following_url": "https://api.github.com/users/rtrompier/following{/other_user}",
+            "gists_url": "https://api.github.com/users/rtrompier/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/rtrompier/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/rtrompier/subscriptions",
+            "organizations_url": "https://api.github.com/users/rtrompier/orgs",
+            "repos_url": "https://api.github.com/users/rtrompier/repos",
+            "events_url": "https://api.github.com/users/rtrompier/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/rtrompier/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "cb0adddc36827c1a662211c069f05e75fd1ff27c",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/cb0adddc36827c1a662211c069f05e75fd1ff27c",
+                "html_url": "https://github.com/huggingface/transformers/commit/cb0adddc36827c1a662211c069f05e75fd1ff27c"
+            }
+        ]
+    },
+    {
+        "sha": "cb0adddc36827c1a662211c069f05e75fd1ff27c",
+        "node_id": "C_kwDOCUB6odoAKGNiMGFkZGRjMzY4MjdjMWE2NjIyMTFjMDY5ZjA1ZTc1ZmQxZmYyN2M",
+        "commit": {
+            "author": {
+                "name": "casinca",
+                "email": "47400729+casinca@users.noreply.github.com",
+                "date": "2026-04-22T04:45:07Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-22T04:45:07Z"
+            },
+            "message": "fix(DSV3): parity between native `DeepseekV3MoE` and remote official implementation (#45441)\n\nfix(`DeepseekV3MoE`): correct expert masking with negative bias",
+            "tree": {
+                "sha": "9f2e2f79126d6ffa2cd9426227ec53992e04ae15",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/9f2e2f79126d6ffa2cd9426227ec53992e04ae15"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/cb0adddc36827c1a662211c069f05e75fd1ff27c",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp6FJjCRC1aQ7uu5UhlAAAFI4QAGf5FveJqYNP80lhgN08kUBR\nwtco0h9o4K4NREYpbLo9XrNTtG5NHT/nIbIG1hjr4dxiOLmcO65sNYHRB+Bz+WMv\nbxD2rzYMxWacARCqcECsYbqOsZQNDd/0F3NGLTrHsvGKPutFkLn3F01zJuVJd0wK\nEzHI7PIEBZvK5apixkDLwNb1HI9IWrrCD6U063NNizZqlO9Ghhb0ghHRlUSbnKbj\n1hCD66obqQAsilJPFbD01bP8iEE78Y4heNeIfybjCp3m573xUOybkk0MI9e3JmQo\nXKHpHMZd9LtO/ZtzHjTJT4scK2B9NIUiXFtXkBBb2j8d/V94HtYl55QuLccms0i7\nF1f7gSRYpghbnCUhUPL6FHBeTRa5ubnJh18arHl1xMkp6SzEBhbjpERXM2+3Snjd\n7IV23TZrZ+2CCseQsXpOLwmYhgmZNdPhA9RD9mFQOHvK9GEYlVhMn3D8dzY6112d\nii1L06leinIIeJIBZdhjy/+ftWgvVT6LhC6nn+Ze031qGjlodVG5gIOMXxFh9H6f\n+bKIN50AXFLmPikpha3cIucWW3zXwGiPt604bMCRobFuBGCDrGizksRRdm4/PcDg\nnfyCSKGnJOH9WROQhz4Q1TdN6c7j0INdTzsphpy6cgabUXI1r0xRBYEalKANUfPK\nLj/gI+TGMF1hMmSqaOWi\n=43Gg\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 9f2e2f79126d6ffa2cd9426227ec53992e04ae15\nparent 08244b96860aa6ebc0b2fa8c0e070bc9bd2bb1a4\nauthor casinca <47400729+casinca@users.noreply.github.com> 1776833107 +0200\ncommitter GitHub <noreply@github.com> 1776833107 +0000\n\nfix(DSV3): parity between native `DeepseekV3MoE` and remote official implementation (#45441)\n\nfix(`DeepseekV3MoE`): correct expert masking with negative bias",
+                "verified_at": "2026-04-22T04:45:23Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/cb0adddc36827c1a662211c069f05e75fd1ff27c",
+        "html_url": "https://github.com/huggingface/transformers/commit/cb0adddc36827c1a662211c069f05e75fd1ff27c",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/cb0adddc36827c1a662211c069f05e75fd1ff27c/comments",
+        "author": {
+            "login": "casinca",
+            "id": 47400729,
+            "node_id": "MDQ6VXNlcjQ3NDAwNzI5",
+            "avatar_url": "https://avatars.githubusercontent.com/u/47400729?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/casinca",
+            "html_url": "https://github.com/casinca",
+            "followers_url": "https://api.github.com/users/casinca/followers",
+            "following_url": "https://api.github.com/users/casinca/following{/other_user}",
+            "gists_url": "https://api.github.com/users/casinca/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/casinca/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/casinca/subscriptions",
+            "organizations_url": "https://api.github.com/users/casinca/orgs",
+            "repos_url": "https://api.github.com/users/casinca/repos",
+            "events_url": "https://api.github.com/users/casinca/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/casinca/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "08244b96860aa6ebc0b2fa8c0e070bc9bd2bb1a4",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/08244b96860aa6ebc0b2fa8c0e070bc9bd2bb1a4",
+                "html_url": "https://github.com/huggingface/transformers/commit/08244b96860aa6ebc0b2fa8c0e070bc9bd2bb1a4"
+            }
+        ]
+    },
+    {
+        "sha": "08244b96860aa6ebc0b2fa8c0e070bc9bd2bb1a4",
+        "node_id": "C_kwDOCUB6odoAKDA4MjQ0Yjk2ODYwYWE2ZWJjMGIyZmE4YzBlMDcwYmM5YmQyYmIxYTQ",
+        "commit": {
+            "author": {
+                "name": "Cyril Vallez",
+                "email": "cyril.vallez@huggingface.co",
+                "date": "2026-04-22T03:35:17Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-22T03:35:17Z"
+            },
+            "message": "Align gemma3n cache sharing to gemma4 (#45489)\n\n* drop weights\n\n* oupsi\n\n* clean\n\n* simplify modulars\n\n* fix\n\n* change order for BC",
+            "tree": {
+                "sha": "2edbd900561e6a57d583cfeaf86c1ec593c145ec",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/2edbd900561e6a57d583cfeaf86c1ec593c145ec"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/08244b96860aa6ebc0b2fa8c0e070bc9bd2bb1a4",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp6EH1CRC1aQ7uu5UhlAAAHx0QADa9xfUZ5GfuJO7odj3tsllI\ndWEPxFjOIKwqTcR4O18uu2Y50jsR2XzkXv2V0WKBU+qkBCx4FVKouSNeuWU1XGvm\nR/XhSXRnsV0IxDh4y3W1r833PxsQo3WODemibyIjKv1wTt7OCUTziIlPYTKNRsmd\nU8WVxmU2m3xkUn9gvgN5WM6VoSvw5LsBQL3dmDOO95a1rnicRXG4fbvqCQSors6v\noStwUBjanVkeOjbm786FhtQP+3BQCz3KnRKwe/Z1mR8CLYwGmHDIzxngyCSyNiUL\nkeak4wMwMZ7J2yyoYbQLB8G3TCWIXQvBF/2m2mZsExAvi7gEDuawsGYcHKCzjTS7\nHykyfqyiDUU1r1P8mG19brr04bspknQn7pgC7jGweej8m7v73yjHBEc1uanlnsIN\nl6bte2gn3z2JnGhOj1gGffAHT6StaranxdaFUamizgMf47GsxRtVNxykDyGQwho5\nF3I5sh/4lVJGgNlYtVZNO7h3EeHAGMffnjjzC7yuSj8RycZKLIJPMsjSB+DN/5YX\nrxyBj5vLsrDACr5KOB8gWeBSIdXSeqBJCtR4TNSCvY5nCCx994u9tvFGnaCg+1tk\nfufZ8mixjZbTSCz8uZnsO9muZIxPySwEuBAUgsNvDW6+L+KtG4idSMJxPlEDOamB\niWM2zzm+dibUknu8r7u+\n=u7m3\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 2edbd900561e6a57d583cfeaf86c1ec593c145ec\nparent f048e845684894fe60440bb8506f26ffaf7b69ac\nauthor Cyril Vallez <cyril.vallez@huggingface.co> 1776828917 +0200\ncommitter GitHub <noreply@github.com> 1776828917 +0200\n\nAlign gemma3n cache sharing to gemma4 (#45489)\n\n* drop weights\n\n* oupsi\n\n* clean\n\n* simplify modulars\n\n* fix\n\n* change order for BC",
+                "verified_at": "2026-04-22T03:35:17Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/08244b96860aa6ebc0b2fa8c0e070bc9bd2bb1a4",
+        "html_url": "https://github.com/huggingface/transformers/commit/08244b96860aa6ebc0b2fa8c0e070bc9bd2bb1a4",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/08244b96860aa6ebc0b2fa8c0e070bc9bd2bb1a4/comments",
+        "author": {
+            "login": "Cyrilvallez",
+            "id": 71554963,
+            "node_id": "MDQ6VXNlcjcxNTU0OTYz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/71554963?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Cyrilvallez",
+            "html_url": "https://github.com/Cyrilvallez",
+            "followers_url": "https://api.github.com/users/Cyrilvallez/followers",
+            "following_url": "https://api.github.com/users/Cyrilvallez/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Cyrilvallez/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Cyrilvallez/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Cyrilvallez/subscriptions",
+            "organizations_url": "https://api.github.com/users/Cyrilvallez/orgs",
+            "repos_url": "https://api.github.com/users/Cyrilvallez/repos",
+            "events_url": "https://api.github.com/users/Cyrilvallez/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Cyrilvallez/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "f048e845684894fe60440bb8506f26ffaf7b69ac",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/f048e845684894fe60440bb8506f26ffaf7b69ac",
+                "html_url": "https://github.com/huggingface/transformers/commit/f048e845684894fe60440bb8506f26ffaf7b69ac"
+            }
+        ]
+    },
+    {
+        "sha": "f048e845684894fe60440bb8506f26ffaf7b69ac",
+        "node_id": "C_kwDOCUB6odoAKGYwNDhlODQ1Njg0ODk0ZmU2MDQ0MGJiODUwNmYyNmZmYWY3YjY5YWM",
+        "commit": {
+            "author": {
+                "name": "Cyril Vallez",
+                "email": "cyril.vallez@huggingface.co",
+                "date": "2026-04-22T01:16:03Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-22T01:16:03Z"
+            },
+            "message": "[modular] Fix modular logic broken in #45045 (#45539)\n\n* revert modular: changes break modular's purpose\n\n* revert the changes to the modulars\n\n* forgot docstring\n\n* oups\n\n* apply modular converter\n\n* fix modular to always copy\n\n* fix order\n\n* fix order\n\n* revert",
+            "tree": {
+                "sha": "1bf05002714a326e4eec353b8abb9d3276eac498",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/1bf05002714a326e4eec353b8abb9d3276eac498"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/f048e845684894fe60440bb8506f26ffaf7b69ac",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp6CFTCRC1aQ7uu5UhlAAAGMkQAIWWvhqUX/YtrluG4o2PQGoq\n4t1k3DXxa1Z5skP37LnApg7vnlgNncRHXsSOlgF8p0QWcQjfwznIa+zXgdXFoqRi\naBbvgzlhlxIdPFh3MZaX5JD2Zs5B6YQg7J7n4aL9LWQUpHix+uYrz5rF6Bp5xe7x\nCJJiOTM6RlH9vJ9K0hUNSwSJZdf1QzQniduqUcQVzAMN3yCK+qKXNPNXWdd0uTge\nHY2IOe9zvfTqTg6CRqQuUCFfypzdEXVgS6sv1DxKU28FlhNavfurHQ+YmHdJbKWw\nJZ0UhLPBoCzLzNtcdXM1+Lrzzm8xGXyRVYG2mnl/o6XY04T4aD+MuEZZKPCqn55Z\nFT2ddLGxdnJK/mXGYaqqobkZCjqiiKv7uHxoSH6c2OggLahe8FMUkbNV18x1FHei\nLflr1QTpUSTKnw2emg+HMxw3DwYR+33p+QUQ/fGbVNTeCFtCojJi2Sz3BLDPb5kh\nqwcXZRnUGUY/V+DozHpuMZd3dIarwFfJq70ogH0d4cIWzi7YUi0KLALPCHJ0nlLr\nR5Qs8LLYOjANNILSmIY/1WHT7PGOdj4E7Q70Lbuv1i3SAoqRKHzPxjP99gFn//1Z\nxplUIlfH6cj2tVDYDnbaQkqeA6B68XOj018Wc2di4bjXXMLnTCHhEBu1SoBHUCN5\nSwEbDSX8cWXfakromdDP\n=xHci\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 1bf05002714a326e4eec353b8abb9d3276eac498\nparent 85099df959f924e7f67ccc94c290af30d2dda6c0\nauthor Cyril Vallez <cyril.vallez@huggingface.co> 1776820563 +0200\ncommitter GitHub <noreply@github.com> 1776820563 +0200\n\n[modular] Fix modular logic broken in #45045 (#45539)\n\n* revert modular: changes break modular's purpose\n\n* revert the changes to the modulars\n\n* forgot docstring\n\n* oups\n\n* apply modular converter\n\n* fix modular to always copy\n\n* fix order\n\n* fix order\n\n* revert",
+                "verified_at": "2026-04-22T01:16:04Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/f048e845684894fe60440bb8506f26ffaf7b69ac",
+        "html_url": "https://github.com/huggingface/transformers/commit/f048e845684894fe60440bb8506f26ffaf7b69ac",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/f048e845684894fe60440bb8506f26ffaf7b69ac/comments",
+        "author": {
+            "login": "Cyrilvallez",
+            "id": 71554963,
+            "node_id": "MDQ6VXNlcjcxNTU0OTYz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/71554963?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Cyrilvallez",
+            "html_url": "https://github.com/Cyrilvallez",
+            "followers_url": "https://api.github.com/users/Cyrilvallez/followers",
+            "following_url": "https://api.github.com/users/Cyrilvallez/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Cyrilvallez/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Cyrilvallez/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Cyrilvallez/subscriptions",
+            "organizations_url": "https://api.github.com/users/Cyrilvallez/orgs",
+            "repos_url": "https://api.github.com/users/Cyrilvallez/repos",
+            "events_url": "https://api.github.com/users/Cyrilvallez/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Cyrilvallez/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "85099df959f924e7f67ccc94c290af30d2dda6c0",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/85099df959f924e7f67ccc94c290af30d2dda6c0",
+                "html_url": "https://github.com/huggingface/transformers/commit/85099df959f924e7f67ccc94c290af30d2dda6c0"
+            }
+        ]
+    },
+    {
+        "sha": "85099df959f924e7f67ccc94c290af30d2dda6c0",
+        "node_id": "C_kwDOCUB6odoAKDg1MDk5ZGY5NTlmOTI0ZTdmNjdjY2M5NGMyOTBhZjMwZDJkZGE2YzA",
+        "commit": {
+            "author": {
+                "name": "Liang Lv",
+                "email": "liang1.lv@intel.com",
+                "date": "2026-04-21T12:49:57Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-21T12:49:57Z"
+            },
+            "message": "Fix: propagate quantization_config to text sub-config for composite models in AutoModelForCausalLM (#45494)\n\n* Fix: propagate quantization_config to text sub-config for composite models in AutoModelForCausalLM\n\nSigned-off-by: lvliang-intel <liang1.lv@intel.com>\n\n* fix comments\n\nSigned-off-by: lvliang-intel <liang1.lv@intel.com>\n\n---------\n\nSigned-off-by: lvliang-intel <liang1.lv@intel.com>",
+            "tree": {
+                "sha": "5c3097cc4c5c4a6bc10ba954f9dbae3673bb3e15",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/5c3097cc4c5c4a6bc10ba954f9dbae3673bb3e15"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/85099df959f924e7f67ccc94c290af30d2dda6c0",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp53KFCRC1aQ7uu5UhlAAAgz8QAEMcDXqZynkurLQoFioeRz4h\n7il613LwX5AKzijUGh3OFJZg9PvSAmwdfbOF0I0VuLsiwl2H61bgd6dRr3isECBZ\n5PZYYnrKGhYZwvnNw6qgpROAVO/6REc+L/rd/g1Tmnj/Uzvz50jJnIvD9EOrQygI\nUBiWjGwEsh3BR0+4UCR+GOFSKbFpnFNck9CBr8DsIwHIN9SL4T8hHq1LXwsLF5WK\nHhQf79BHGZYkBXrMnQWJcsduKzpKsvkYusPap8iTxtJNIxlq84YJGchdIbyW4o5e\n8tfTn0MOrKgsrnUD5lfUQAED/976iq8/ZOuSHLyosra3RLmCwnAWIj0GVTTyiMU3\n7wPKHcyQP1WUpxZVbq+2D86rN7sjvqw4nXvIC9+ciu0rnJ5ct/I4M659m+j6TweY\nU2J9zOE3EGqZClzorhgGEWfahajrmHKuLDEQzJ/AMhvvLFxKJzDmtCztjAZtW6vv\njJQrESm/O+FZPQZPW1NM68zk3/L0MvPp/1poOSBZOGOADIQlTrh0qtuB02NK9nmP\n8B/I65xE1DJT77sp4hpFK8DPIlitrNiCCzQqtld3ha5ckMQCLkSerLvpYUzZOib9\nrNryutlCYjYbWNCyjfJi7dl+ByFjpgVS9fcDY2w72PE5KC/mGO0FTu9oMRQLRrGh\n95czVQYPW4aItmLF2od5\n=1bov\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 5c3097cc4c5c4a6bc10ba954f9dbae3673bb3e15\nparent fcc22811f5a7145a7454e1ba343eadc674f665cc\nauthor Liang Lv <liang1.lv@intel.com> 1776775797 +0800\ncommitter GitHub <noreply@github.com> 1776775797 +0000\n\nFix: propagate quantization_config to text sub-config for composite models in AutoModelForCausalLM (#45494)\n\n* Fix: propagate quantization_config to text sub-config for composite models in AutoModelForCausalLM\n\nSigned-off-by: lvliang-intel <liang1.lv@intel.com>\n\n* fix comments\n\nSigned-off-by: lvliang-intel <liang1.lv@intel.com>\n\n---------\n\nSigned-off-by: lvliang-intel <liang1.lv@intel.com>",
+                "verified_at": "2026-04-21T12:50:13Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/85099df959f924e7f67ccc94c290af30d2dda6c0",
+        "html_url": "https://github.com/huggingface/transformers/commit/85099df959f924e7f67ccc94c290af30d2dda6c0",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/85099df959f924e7f67ccc94c290af30d2dda6c0/comments",
+        "author": {
+            "login": "lvliang-intel",
+            "id": 104267837,
+            "node_id": "U_kgDOBjcAPQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/104267837?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lvliang-intel",
+            "html_url": "https://github.com/lvliang-intel",
+            "followers_url": "https://api.github.com/users/lvliang-intel/followers",
+            "following_url": "https://api.github.com/users/lvliang-intel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/lvliang-intel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/lvliang-intel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/lvliang-intel/subscriptions",
+            "organizations_url": "https://api.github.com/users/lvliang-intel/orgs",
+            "repos_url": "https://api.github.com/users/lvliang-intel/repos",
+            "events_url": "https://api.github.com/users/lvliang-intel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/lvliang-intel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "fcc22811f5a7145a7454e1ba343eadc674f665cc",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/fcc22811f5a7145a7454e1ba343eadc674f665cc",
+                "html_url": "https://github.com/huggingface/transformers/commit/fcc22811f5a7145a7454e1ba343eadc674f665cc"
+            }
+        ]
+    },
+    {
+        "sha": "fcc22811f5a7145a7454e1ba343eadc674f665cc",
+        "node_id": "C_kwDOCUB6odoAKGZjYzIyODExZjVhNzE0NWE3NDU0ZTFiYTM0M2VhZGM2NzRmNjY1Y2M",
+        "commit": {
+            "author": {
+                "name": "Nazar",
+                "email": "63452145+Tokarak@users.noreply.github.com",
+                "date": "2026-04-21T12:41:35Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-21T12:41:35Z"
+            },
+            "message": "T5Gemma2: fix `prepare_decoder_input_ids_from_labels` (#45516)\n\nRename arg from `input_ids` to `labels`, to be\nconsistent with other models' `prepare_decoder_input_ids_from_labels`\n\nFix broken interaction when DataCollatorForSeq2Seq passes argument\nas a hard-coded \"labels\" kwarg",
+            "tree": {
+                "sha": "93eba15356f40ba0b9ef101c1f8ebaddfed3ee3b",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/93eba15356f40ba0b9ef101c1f8ebaddfed3ee3b"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/fcc22811f5a7145a7454e1ba343eadc674f665cc",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp53CPCRC1aQ7uu5UhlAAAUAgQAFhokKvgj1+MssUe+Nuu/AFz\nd/o0KCM1dE5DzKyEWYggiUhy//nBjbGumEHBZYwqJCSF33n+FBe/ydj99xljpuZN\nv8j4Al0ZY1XrEYAqsrymApFD+MDXkqBZtZNGScxxGUiq2wtHuavJxw5rmhEysZP8\nTbH9CM7mjM8il5GflwdBeA0WmLPbrN6we3LlA38gXJnDqwZqIft/0WUzfvFRZEHA\nnQWWrI4VtTb8eqCQjfQAMH/oUWhGpNaL/NMhQU4+9nKhgqUZo8YzUtV5FLhuSA3m\ncnQEMUir82Q1EhidzdnxSQR1RtJfJ3V5BQiqqet8zBh/jan4b+tnOJ0U/W1A5u6N\nsl7BNhKNlcclLGU90Bc7crtouTJla38367nCRSR5HPS1ZhcJ09V8MzMY3tfWW5I9\nD7DjY7Gi0jk1xL1RLIQxuZAKkHJRv7ykys4zpEqLIU5lLfOi1mo8fJpH1g/0xnmg\nGSi9CcOZvHOc7dx8tlRFCXs+9PLxojYYvaNwH+sNODDTu3mYTdsFYFjlNVAIfVem\nc1j+kO3oXhB0bdC5djeatQPsXYyBbp78uDr+INIWR5f4boFidbj6KCa1DeVdP+L2\nrtS0y5NgLRgVgc0tzHOCvs6ahNV5iu/gr44QV2B4ymKfid0/ANggSnJll0na3Dc+\n4LNpiBu4ktmHmsgpBtxJ\n=6gVd\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 93eba15356f40ba0b9ef101c1f8ebaddfed3ee3b\nparent 26bb358ea971aebe30729f8a7ae4f3f0fedb1d5a\nauthor Nazar <63452145+Tokarak@users.noreply.github.com> 1776775295 +0100\ncommitter GitHub <noreply@github.com> 1776775295 +0000\n\nT5Gemma2: fix `prepare_decoder_input_ids_from_labels` (#45516)\n\nRename arg from `input_ids` to `labels`, to be\nconsistent with other models' `prepare_decoder_input_ids_from_labels`\n\nFix broken interaction when DataCollatorForSeq2Seq passes argument\nas a hard-coded \"labels\" kwarg",
+                "verified_at": "2026-04-21T12:41:51Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/fcc22811f5a7145a7454e1ba343eadc674f665cc",
+        "html_url": "https://github.com/huggingface/transformers/commit/fcc22811f5a7145a7454e1ba343eadc674f665cc",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/fcc22811f5a7145a7454e1ba343eadc674f665cc/comments",
+        "author": {
+            "login": "Tokarak",
+            "id": 63452145,
+            "node_id": "MDQ6VXNlcjYzNDUyMTQ1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/63452145?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Tokarak",
+            "html_url": "https://github.com/Tokarak",
+            "followers_url": "https://api.github.com/users/Tokarak/followers",
+            "following_url": "https://api.github.com/users/Tokarak/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Tokarak/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Tokarak/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Tokarak/subscriptions",
+            "organizations_url": "https://api.github.com/users/Tokarak/orgs",
+            "repos_url": "https://api.github.com/users/Tokarak/repos",
+            "events_url": "https://api.github.com/users/Tokarak/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Tokarak/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "26bb358ea971aebe30729f8a7ae4f3f0fedb1d5a",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/26bb358ea971aebe30729f8a7ae4f3f0fedb1d5a",
+                "html_url": "https://github.com/huggingface/transformers/commit/26bb358ea971aebe30729f8a7ae4f3f0fedb1d5a"
+            }
+        ]
+    },
+    {
+        "sha": "26bb358ea971aebe30729f8a7ae4f3f0fedb1d5a",
+        "node_id": "C_kwDOCUB6odoAKDI2YmIzNThlYTk3MWFlYmUzMDcyOWY4YTdhZTRmM2YwZmVkYjFkNWE",
+        "commit": {
+            "author": {
+                "name": "Keita Watanabe",
+                "email": "keitaw09@gmail.com",
+                "date": "2026-04-21T12:32:01Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-21T12:32:01Z"
+            },
+            "message": "[Trainer] Add ddp_static_graph option (#45519)\n\n* [Trainer] Add ddp_static_graph option\n\nExpose PyTorch DDP's `static_graph` flag as a new `ddp_static_graph: Optional[bool]`\nfield on `TrainingArguments`, forwarded through `Trainer._build_accelerator_args`\ninto Accelerate's `DistributedDataParallelKwargs` (which already supports it).\n\nCompletes the set of DDP flags partially exposed today\n(`ddp_find_unused_parameters`, `ddp_bucket_cap_mb`, `ddp_broadcast_buffers`).\n\nDefaults to `None`; when unset, the kwarg is never added to `ddp_kwargs`, so\nAccelerate's own default (`False`) applies \u2014 strictly additive, no existing\nbehavior changes.\n\nSee issue #45518 for full motivation: users with frozen trainable submodules\n(e.g. the LLM-frozen head-tuning pattern) today either hit `Expected to have\nfinished reduction in the prior iteration...` or must pay per-iteration\n`find_unused_parameters=True` traversal cost. `static_graph=True` is the\nperformance-optimal third option that Accelerate/PyTorch already support\nbut that Trainer couldn't expose.\n\nTests: positive (True, False) plus regression guard (None must not leak the\nkwarg).\n\nFixes #45518\n\n* Address review: shorten ddp_static_graph docs",
+            "tree": {
+                "sha": "f7b9d811f59406015b5d231520c18eef8b716682",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/f7b9d811f59406015b5d231520c18eef8b716682"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/26bb358ea971aebe30729f8a7ae4f3f0fedb1d5a",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp525HCRC1aQ7uu5UhlAAAY8wQABTnDHa7BX7blJjglqUJ3aFi\n7Y0rCe281HJL5gXX422HKd+QIq8qBP8QeXx/7fPs6PCTxfdh4MT8b8YI33koB/BI\nmL+wtEM7f2Q49Xf0CjiQfTA+RUuyWchjILmxqUARICuz3A4rrfiMeCSihCXWn+UD\nh0+p/97V0qLND/TW5VgmhthcmalvSCJJ71qjZ5y4TLzgpi+qZ3VN6KCla/zN8N7h\nGPhEkT8mCaVkaH1/LAR9cRB8rOCD0rRJdLCO0eZmUMnhv+MDTe1+okkvbUOpiUMy\nfBnDFYKzQeLIL6rFSbyVM0kwafMnjp7rZtItELsmWLUNHj0YStkUl0A+gEVIVy0L\nWpImQR1NEf+Y41waas7TVz8Wm5X1OFRF/rTkq6XdkW27jUbyND9rCNKeIZLmlu9f\nYiTEdYhaTacxYJCu2W210ppBYo/izXTQF45VEe99FLHxSFlwJSYN/AURTlX1X/iz\nWrZy/yQguxtRvsiTddk1+8sYVE/XEzpjVjkCziWaDg/a7Bp3yYasnb1+AkX2MqJi\nHT/x39iwW264Qc9fYM5TEhu2jzk7/LlDexT242te8cQ7teDuEwXgPGY5rIwTsYCy\n50rzUAuzR2daPrjqqZW1KRPutALEXBF+yDIS74O7+4rH8PrKXqjykJvSmJX8+cPS\niwsQ+eD6oftKq8B5oQRe\n=muZ1\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree f7b9d811f59406015b5d231520c18eef8b716682\nparent 1a4bc1403aebeba1804ae3389d38310c4d140cc9\nauthor Keita Watanabe <keitaw09@gmail.com> 1776774721 +0900\ncommitter GitHub <noreply@github.com> 1776774721 +0000\n\n[Trainer] Add ddp_static_graph option (#45519)\n\n* [Trainer] Add ddp_static_graph option\n\nExpose PyTorch DDP's `static_graph` flag as a new `ddp_static_graph: Optional[bool]`\nfield on `TrainingArguments`, forwarded through `Trainer._build_accelerator_args`\ninto Accelerate's `DistributedDataParallelKwargs` (which already supports it).\n\nCompletes the set of DDP flags partially exposed today\n(`ddp_find_unused_parameters`, `ddp_bucket_cap_mb`, `ddp_broadcast_buffers`).\n\nDefaults to `None`; when unset, the kwarg is never added to `ddp_kwargs`, so\nAccelerate's own default (`False`) applies \u2014 strictly additive, no existing\nbehavior changes.\n\nSee issue #45518 for full motivation: users with frozen trainable submodules\n(e.g. the LLM-frozen head-tuning pattern) today either hit `Expected to have\nfinished reduction in the prior iteration...` or must pay per-iteration\n`find_unused_parameters=True` traversal cost. `static_graph=True` is the\nperformance-optimal third option that Accelerate/PyTorch already support\nbut that Trainer couldn't expose.\n\nTests: positive (True, False) plus regression guard (None must not leak the\nkwarg).\n\nFixes #45518\n\n* Address review: shorten ddp_static_graph docs",
+                "verified_at": "2026-04-21T12:32:07Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/26bb358ea971aebe30729f8a7ae4f3f0fedb1d5a",
+        "html_url": "https://github.com/huggingface/transformers/commit/26bb358ea971aebe30729f8a7ae4f3f0fedb1d5a",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/26bb358ea971aebe30729f8a7ae4f3f0fedb1d5a/comments",
+        "author": {
+            "login": "KeitaW",
+            "id": 8693216,
+            "node_id": "MDQ6VXNlcjg2OTMyMTY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8693216?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/KeitaW",
+            "html_url": "https://github.com/KeitaW",
+            "followers_url": "https://api.github.com/users/KeitaW/followers",
+            "following_url": "https://api.github.com/users/KeitaW/following{/other_user}",
+            "gists_url": "https://api.github.com/users/KeitaW/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/KeitaW/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/KeitaW/subscriptions",
+            "organizations_url": "https://api.github.com/users/KeitaW/orgs",
+            "repos_url": "https://api.github.com/users/KeitaW/repos",
+            "events_url": "https://api.github.com/users/KeitaW/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/KeitaW/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "1a4bc1403aebeba1804ae3389d38310c4d140cc9",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/1a4bc1403aebeba1804ae3389d38310c4d140cc9",
+                "html_url": "https://github.com/huggingface/transformers/commit/1a4bc1403aebeba1804ae3389d38310c4d140cc9"
+            }
+        ]
+    },
+    {
+        "sha": "1a4bc1403aebeba1804ae3389d38310c4d140cc9",
+        "node_id": "C_kwDOCUB6odoAKDFhNGJjMTQwM2FlYmViYTE4MDRhZTMzODlkMzgzMTBjNGQxNDBjYzk",
+        "commit": {
+            "author": {
+                "name": "Jack Cook",
+                "email": "hello@jackcook.com",
+                "date": "2026-04-21T12:30:20Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-21T12:30:20Z"
+            },
+            "message": "Add dtype config options for Four Over Six (#45367)\n\nAdd dtype config options\n\nCo-authored-by: Marc Sun <57196510+SunMarc@users.noreply.github.com>",
+            "tree": {
+                "sha": "6eec21f98a197998d67886e509c2ea74e73d71c1",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/6eec21f98a197998d67886e509c2ea74e73d71c1"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/1a4bc1403aebeba1804ae3389d38310c4d140cc9",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp523kCRC1aQ7uu5UhlAAAxXAQAHMnjN+vlkjNpQ+j21xoNyLz\n/rPIvFdk/4Gd/thy+Hx7IrEP2TW58ku2OzE6LnYwMCd6YlYsSDzV8aE6W4kd2M23\n3TGgCJCksPZQinScx2xl+sb8QGCk2XPvIBo85eYZ8m1zXoyAu7tkOUmruV0R13ZH\nIWrHTrWuNWpdf2+IYLdOzhG/+ZQ4ZPzdogHCGqaVBTsmluUMeEe6vYKLNUTcNeNG\n3phEUVPjBfQ8YKP7p3qGfGKd/pgGOgakuWlvrbS5nYqv2R48a1gYdT2IAqklgQLp\nZzwe6AWwA4yGJ9ac5pPtkgRdqBIRN6KXikK0jen8kvVqeiMiV0n5uGHQerys2SlU\nxSmQ4FlH3xNw2RYSoJ2CIRCaJKp4oa6oSTxFJbE0ZacxWo87TOEXhX8sGy7uvTLZ\nEvo7lm2xigzJe+QOYKwxwcg7w6oFNYYxKV25OvJyeEFXknYw39xi4liZt9gmKsPj\nI/xzE/DiKJGQooreyfcLgXvB9/FkT70XxB3dc1D6y55d/T9pmmG+OxBDtaPLupYS\nMvrzBaiLdPLPCARLsYTwVh/AfZqWfsjwd8T3owmOWpvrSAVk3xWzBkRmp23xkkJs\nEl4FUh1Pr5C12++g3iPGUuxicD2zbnRWUf5sFbOmhhxX3dJrTsOw33Oic+bc0J2x\n3a09dBM71la6CEwbQiGk\n=BUbe\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 6eec21f98a197998d67886e509c2ea74e73d71c1\nparent 7439ac045993a641d2a3157cbf395a96334d799e\nauthor Jack Cook <hello@jackcook.com> 1776774620 -0400\ncommitter GitHub <noreply@github.com> 1776774620 +0000\n\nAdd dtype config options for Four Over Six (#45367)\n\nAdd dtype config options\n\nCo-authored-by: Marc Sun <57196510+SunMarc@users.noreply.github.com>",
+                "verified_at": "2026-04-21T12:30:28Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/1a4bc1403aebeba1804ae3389d38310c4d140cc9",
+        "html_url": "https://github.com/huggingface/transformers/commit/1a4bc1403aebeba1804ae3389d38310c4d140cc9",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/1a4bc1403aebeba1804ae3389d38310c4d140cc9/comments",
+        "author": {
+            "login": "jackcook",
+            "id": 5024663,
+            "node_id": "MDQ6VXNlcjUwMjQ2NjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5024663?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jackcook",
+            "html_url": "https://github.com/jackcook",
+            "followers_url": "https://api.github.com/users/jackcook/followers",
+            "following_url": "https://api.github.com/users/jackcook/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jackcook/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jackcook/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jackcook/subscriptions",
+            "organizations_url": "https://api.github.com/users/jackcook/orgs",
+            "repos_url": "https://api.github.com/users/jackcook/repos",
+            "events_url": "https://api.github.com/users/jackcook/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jackcook/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "7439ac045993a641d2a3157cbf395a96334d799e",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/7439ac045993a641d2a3157cbf395a96334d799e",
+                "html_url": "https://github.com/huggingface/transformers/commit/7439ac045993a641d2a3157cbf395a96334d799e"
+            }
+        ]
+    },
+    {
+        "sha": "7439ac045993a641d2a3157cbf395a96334d799e",
+        "node_id": "C_kwDOCUB6odoAKDc0MzlhYzA0NTk5M2E2NDFkMmEzMTU3Y2JmMzk1YTk2MzM0ZDc5OWU",
+        "commit": {
+            "author": {
+                "name": "Yoni Gozlan",
+                "email": "74535834+yonigozlan@users.noreply.github.com",
+                "date": "2026-04-21T12:22:39Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-21T12:22:39Z"
+            },
+            "message": "[Sam3LiteText] Remove unnecessary modules/configs (#45535)\n\n* fix sam3 lite text\n\n* sync modular\n\n---------\n\nCo-authored-by: vasqu <antonprogamer@gmail.com>",
+            "tree": {
+                "sha": "fd07acb431f75827e4d1053d3297993b5c2338c0",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/fd07acb431f75827e4d1053d3297993b5c2338c0"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/7439ac045993a641d2a3157cbf395a96334d799e",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp52wfCRC1aQ7uu5UhlAAAIE4QAJNH2Eb/Z+1G8WAzzB9uVcPT\nqhpr4CVbM4WRLynelQVQ1+8WQb7JQ/0BZpPogMltr58TvEnfX75GoYg2LH9BKLhK\n8Xos/dal4LcIdZqkAOtCHy67l1ElZnGeqGOyE3S9NE2PlPOJzogHCCi8UrNQ2cnJ\nYh/tQMg13j9RQ0uLWyUHtEoWqt1+ho1r+cL62cPmnLeTb8nrSEn4e4eaIGr4zNdv\nRwsCN5G2B2RIkzIFK80b8klknyltoZO6y1e6f+HsYJfH2nAvg0iIFeR8URLz9gml\nMg8rN1/A9E6l0B5r6P/RHM0pRIQlRdaetUc/sjKWKHwJNYBaXvToQEZBwzlFKWMs\n4kbYubcRNsZ3rfD095MkaXMFZ/adbsUMZn5esiRFrniE3VFnT+zvzuLN1CH+hE1Q\nDbChUrO2YeVAe16DYzplQp3LBLduKV4o9RKb1iL8zIpG2A8y5SyNRfev+G95jzVm\nykLqr5dgSwfH/TlRNJ7pv3j78Rqatk5fW2mtdHPwqDMxa+mvGku+GugRHI6G0CFF\n29YGsyQ3I5URZ0sp48HxlzdgK8v6kyl2rIJj42UWrgxPqLgMCEbeJjo4FZ+XV56M\nEcdFrx4D2d6bagvOZaNZ98uvTvaLQljG/1yyITL2vxA1KSFnH8VHbmK0OCMTgMUU\n+zSYSKCxw7D+MqI3wpNR\n=0L2f\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree fd07acb431f75827e4d1053d3297993b5c2338c0\nparent dadd30b8e2b666542afed7e68e699a8461d86657\nauthor Yoni Gozlan <74535834+yonigozlan@users.noreply.github.com> 1776774159 -0400\ncommitter GitHub <noreply@github.com> 1776774159 +0000\n\n[Sam3LiteText] Remove unnecessary modules/configs (#45535)\n\n* fix sam3 lite text\n\n* sync modular\n\n---------\n\nCo-authored-by: vasqu <antonprogamer@gmail.com>",
+                "verified_at": "2026-04-21T12:22:56Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/7439ac045993a641d2a3157cbf395a96334d799e",
+        "html_url": "https://github.com/huggingface/transformers/commit/7439ac045993a641d2a3157cbf395a96334d799e",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/7439ac045993a641d2a3157cbf395a96334d799e/comments",
+        "author": {
+            "login": "yonigozlan",
+            "id": 74535834,
+            "node_id": "MDQ6VXNlcjc0NTM1ODM0",
+            "avatar_url": "https://avatars.githubusercontent.com/u/74535834?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/yonigozlan",
+            "html_url": "https://github.com/yonigozlan",
+            "followers_url": "https://api.github.com/users/yonigozlan/followers",
+            "following_url": "https://api.github.com/users/yonigozlan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/yonigozlan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/yonigozlan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/yonigozlan/subscriptions",
+            "organizations_url": "https://api.github.com/users/yonigozlan/orgs",
+            "repos_url": "https://api.github.com/users/yonigozlan/repos",
+            "events_url": "https://api.github.com/users/yonigozlan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/yonigozlan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "dadd30b8e2b666542afed7e68e699a8461d86657",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/dadd30b8e2b666542afed7e68e699a8461d86657",
+                "html_url": "https://github.com/huggingface/transformers/commit/dadd30b8e2b666542afed7e68e699a8461d86657"
+            }
+        ]
+    },
+    {
+        "sha": "dadd30b8e2b666542afed7e68e699a8461d86657",
+        "node_id": "C_kwDOCUB6odoAKGRhZGQzMGI4ZTJiNjY2NTQyYWZlZDdlNjhlNjk5YTg0NjFkODY2NTc",
+        "commit": {
+            "author": {
+                "name": "Quentin Gallou\u00e9dec",
+                "email": "45557362+qgallouedec@users.noreply.github.com",
+                "date": "2026-04-21T12:22:15Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-21T12:22:15Z"
+            },
+            "message": "Fix conditional check for float formatting (#44425)",
+            "tree": {
+                "sha": "695f1debce8f5ec84601b0e28245e2412d4bebbc",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/695f1debce8f5ec84601b0e28245e2412d4bebbc"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/dadd30b8e2b666542afed7e68e699a8461d86657",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp52wHCRC1aQ7uu5UhlAAAeQEQAF2aicI9kCfL/TeLIVh8a043\nlUIbw9ijnTDGadVA8ivbV0h/2i7tDoRImYgASKM6A5n4WIihKx/NurgKdv9F3/+G\nBnvVs79bYNQf8Aj+evtJI7dhoITRVVaJD2lK4mHs0sXdFC7BVGJyCUOzxiqsOUq7\nwrk7WwTX6H8Z9eufR5NPtuXiTZKxUY2RMIrQnT/vIX/d7L8QkOFcMU8uUYsx0J+J\nymSI+OuIpr+uh9KX/4hMzyh+pr2Ph2N298GEduduXfOGPS67HvI0+kxXMClF/5UA\n6PeRNo+LlZkGbswLsVg4evn7LkDXYRQ1QP1imjpdm5x9W6tGHU9KA13I6tOI6cxc\nqoBl65tR6AIN2rZbB1kq2QvGe8W4FElzkR/4qiS4cqfmdVWjxTsEIzcqTUe76/t7\nqkhFVf+c8nZGbhZD0IqEEDwDQaqlY0vdxO2f6UutkfJGqrWMha4ik5r98NSRz5/R\nPWloffdu47Y8rxa7x0HDXmUVzqGGWgZEIsUcolmAANu3aFxpKVYoYCPekkqLnA/g\nA0TAo0LDS6g8Xd7tauQe3eKZ4O+zUxmzZqsH+hiU1l0WAF+8LTgDhQICyePEeP6G\njZo8p1nspcw3dgf+y40jfhlZQHrEfbND2+OOkD0kCpz+zWaSBOAvdjNakCXk3RYQ\n1zKA6yBa31snLQU4TKKm\n=FME/\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 695f1debce8f5ec84601b0e28245e2412d4bebbc\nparent 67fb8bb36987c8171b96e15acd49ea0a837693c7\nauthor Quentin Gallou\u00e9dec <45557362+qgallouedec@users.noreply.github.com> 1776774135 -0400\ncommitter GitHub <noreply@github.com> 1776774135 +0000\n\nFix conditional check for float formatting (#44425)",
+                "verified_at": "2026-04-21T12:22:31Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/dadd30b8e2b666542afed7e68e699a8461d86657",
+        "html_url": "https://github.com/huggingface/transformers/commit/dadd30b8e2b666542afed7e68e699a8461d86657",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/dadd30b8e2b666542afed7e68e699a8461d86657/comments",
+        "author": {
+            "login": "qgallouedec",
+            "id": 45557362,
+            "node_id": "MDQ6VXNlcjQ1NTU3MzYy",
+            "avatar_url": "https://avatars.githubusercontent.com/u/45557362?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/qgallouedec",
+            "html_url": "https://github.com/qgallouedec",
+            "followers_url": "https://api.github.com/users/qgallouedec/followers",
+            "following_url": "https://api.github.com/users/qgallouedec/following{/other_user}",
+            "gists_url": "https://api.github.com/users/qgallouedec/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/qgallouedec/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/qgallouedec/subscriptions",
+            "organizations_url": "https://api.github.com/users/qgallouedec/orgs",
+            "repos_url": "https://api.github.com/users/qgallouedec/repos",
+            "events_url": "https://api.github.com/users/qgallouedec/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/qgallouedec/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "67fb8bb36987c8171b96e15acd49ea0a837693c7",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/67fb8bb36987c8171b96e15acd49ea0a837693c7",
+                "html_url": "https://github.com/huggingface/transformers/commit/67fb8bb36987c8171b96e15acd49ea0a837693c7"
+            }
+        ]
+    },
+    {
+        "sha": "67fb8bb36987c8171b96e15acd49ea0a837693c7",
+        "node_id": "C_kwDOCUB6odoAKDY3ZmI4YmIzNjk4N2M4MTcxYjk2ZTE1YWNkNDllYTBhODM3NjkzYzc",
+        "commit": {
+            "author": {
+                "name": "BADAOUI Abdennacer",
+                "email": "106801897+Abdennacer-Badaoui@users.noreply.github.com",
+                "date": "2026-04-21T11:01:23Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-21T11:01:23Z"
+            },
+            "message": "Fix AMD CI: rebuild torchvision with libjpeg + refresh expectations (#45533)\n\n* update torchvision build\n\n* modernbert expec update\n\n* style",
+            "tree": {
+                "sha": "bc42beb4c654d0c1c6a7371e734c46f703822764",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/bc42beb4c654d0c1c6a7371e734c46f703822764"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/67fb8bb36987c8171b96e15acd49ea0a837693c7",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp51kTCRC1aQ7uu5UhlAAAV7sQAKP2cETEt8b7FB6NrVnktqmt\nKUDHuX1FzCOppk2ByGvzt12Lr3bIyHUheJfyu8OEjV1BgNb6py/eMPZOP4OiD+tq\nejowwIcK/KxvLurPibDH5uVXfmJMqvUleCfQWUCE0sBTA4xABqvSPrrewDlI0BNC\nF3VWuGLUMADj7qROoC9ZTc5k6TEbpqdmkJcosAhTI5YwKkldtFxP9fpOHBayLA80\nZHpUKssnWk7iifbRAXumyVbprcULhQIRA7UBTmAPfnd23GHiwZOdA3NRfOchWHwf\nTQnhEL0Ey6g/f3WL1oBliGcK5idkDV22Q1Hx1LU2YRd5DvSADvACuJx4gKfultGO\npQDvoqIurkLEUXXiyDLq3115Fn7TnA9exClphfJYCPE+h9LW1RlUp3ie/KAcCyZe\nwO7ifkEanWu6YoRap9jrk3ZxIFhug0IxR/fHEFSiKyPyRVK/6CvdwOJokPJVccV4\nXXmN+NLIymOPf6cYBAKKaAaJSzjfa5AAZkXiuopndzsAk/xACOdw3SYJN/UEUgKz\nOYFNELf0Bu2BmnIiJXPlzJFkZ3/AvNPcFn9fcvaiQrnvB+I074VQOKmNhZYejeK+\nE5Alm/DQfF+rYvBdr1meOC5xRlq3GuQ0JohHNpbk5J8IgmwZEDWAiCL4PEXw5rKA\nw/o+rPWfw5bHuHr7SrcF\n=U85m\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree bc42beb4c654d0c1c6a7371e734c46f703822764\nparent 9dff7ca5c9693f4c02cdd2a9c2abc4772fcea5da\nauthor BADAOUI Abdennacer <106801897+Abdennacer-Badaoui@users.noreply.github.com> 1776769283 +0200\ncommitter GitHub <noreply@github.com> 1776769283 +0000\n\nFix AMD CI: rebuild torchvision with libjpeg + refresh expectations (#45533)\n\n* update torchvision build\n\n* modernbert expec update\n\n* style",
+                "verified_at": "2026-04-21T11:01:39Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/67fb8bb36987c8171b96e15acd49ea0a837693c7",
+        "html_url": "https://github.com/huggingface/transformers/commit/67fb8bb36987c8171b96e15acd49ea0a837693c7",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/67fb8bb36987c8171b96e15acd49ea0a837693c7/comments",
+        "author": {
+            "login": "Abdennacer-Badaoui",
+            "id": 106801897,
+            "node_id": "U_kgDOBl2q6Q",
+            "avatar_url": "https://avatars.githubusercontent.com/u/106801897?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Abdennacer-Badaoui",
+            "html_url": "https://github.com/Abdennacer-Badaoui",
+            "followers_url": "https://api.github.com/users/Abdennacer-Badaoui/followers",
+            "following_url": "https://api.github.com/users/Abdennacer-Badaoui/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Abdennacer-Badaoui/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Abdennacer-Badaoui/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Abdennacer-Badaoui/subscriptions",
+            "organizations_url": "https://api.github.com/users/Abdennacer-Badaoui/orgs",
+            "repos_url": "https://api.github.com/users/Abdennacer-Badaoui/repos",
+            "events_url": "https://api.github.com/users/Abdennacer-Badaoui/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Abdennacer-Badaoui/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "9dff7ca5c9693f4c02cdd2a9c2abc4772fcea5da",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/9dff7ca5c9693f4c02cdd2a9c2abc4772fcea5da",
+                "html_url": "https://github.com/huggingface/transformers/commit/9dff7ca5c9693f4c02cdd2a9c2abc4772fcea5da"
+            }
+        ]
+    },
+    {
+        "sha": "9dff7ca5c9693f4c02cdd2a9c2abc4772fcea5da",
+        "node_id": "C_kwDOCUB6odoAKDlkZmY3Y2E1Yzk2OTNmNGMwMmNkZDJhOWMyYWJjNDc3MmZjZWE1ZGE",
+        "commit": {
+            "author": {
+                "name": "AmineDiro",
+                "email": "aminedirhoussi1@gmail.com",
+                "date": "2026-04-21T07:01:22Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-21T07:01:22Z"
+            },
+            "message": "Fix EP: RouterParallel shape, tp_plan property, grouped_mm sentinels (#45473)\n\n* Fix EP: RouterParallel shape, tp_plan property, grouped_mm sentinels\n\n* Fix GroupedGemmParallel.shard_tensor: use self.rank for expert sharding\n\n* Fix expert parallel attribute mapping and update tests\n\nAdd `attribute_map` to GptOssConfig to map `num_experts` to\n`num_local_experts`,\nand fix GroupedGemmParallel to use `empty_param.shape[0]` instead of\n`module.num_experts`. Remove RouterParallel tests and add new expert\nparallel\nforward/backward tests to TensorParallelTesterMixin.\n\n* Harden _can_set_{attn,experts}_implementation against sys.modules eviction\n\nUse sys.modules.get(cls.__module__) and treat a missing entry the same as\nthe existing Jupyter/REPL case (no __file__) -> return False.\n\nWithout this, PreTrainedModel.__init__ crashes with KeyError whenever\nanother test (e.g. tests/utils/test_auto_docstring._clear) has evicted\ntransformers.models.* entries from sys.modules while their class objects\nare still live.",
+            "tree": {
+                "sha": "9b80e3721f21f6ffffb7591c911d31a2dcc911d7",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/9b80e3721f21f6ffffb7591c911d31a2dcc911d7"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/9dff7ca5c9693f4c02cdd2a9c2abc4772fcea5da",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp5yDSCRC1aQ7uu5UhlAAAojoQAF6hCadsIry9+T0aTwNQwO0Q\nooEf+6DRNj2vrM+psNiJjDd4aYZhYqr1naDo+pTmFfZhc6mjxMj8f+GKZjO7h8zM\nY0xHAgwamFJsSh1rkTTbqAHuEiVKsxkYAUH5t223vHT7uZksVqpX9cekJeobX/va\nimwG+Unv/7OvoHUV/OnUSNmdcV5FRR1627WrlVfgScuU/pIIjsEd/lgfFD4G57Xb\nDo4XSbonvT/p2g3W88I+Ar3V1Yv89h8iDhO5GX+Mpb74G1rFbWAvjCy6VrWSiIw4\nQWFJ6zNjpENxXXsB67MBBwrg9EGVfBQ8YmI6jriE6aWzpFQFE1GCQNSQmzBX4AZe\nGxps35a0GXuTFVKFblTqpyE6DP97yThEWS94myGePnfPVP3Sj4o126aeYDFRyS9E\n8j7FefxIfqbsBN+hLX5TY4Is5bL7BQzUfCR+WGGFkQD7azTLMYSRDhv2vHBh/ov7\neAu5ioUHvLY28AvgVatrZq3KLkDQOOGQS+uGQ+O7Wz88nHWYEtyvCZ2Wciwhqcai\nWeVrbII7trIHAxzi+H7DmILXSs2FXtLkAqGql8N1YG58eCcnY8hM8k2n8ZbFDdtV\nmsbWDhG/H+0LWWYPYo4vwCUJeSBhFY8H1n+uYUcOd+WX/fp0QocLJ/zvPwt869CG\nm8qpUg01leE9orQhFAqV\n=czjM\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 9b80e3721f21f6ffffb7591c911d31a2dcc911d7\nparent a6dab9f359034b2745f787c5f4287747b8b62d30\nauthor AmineDiro <aminedirhoussi1@gmail.com> 1776754882 +0200\ncommitter GitHub <noreply@github.com> 1776754882 +0000\n\nFix EP: RouterParallel shape, tp_plan property, grouped_mm sentinels (#45473)\n\n* Fix EP: RouterParallel shape, tp_plan property, grouped_mm sentinels\n\n* Fix GroupedGemmParallel.shard_tensor: use self.rank for expert sharding\n\n* Fix expert parallel attribute mapping and update tests\n\nAdd `attribute_map` to GptOssConfig to map `num_experts` to\n`num_local_experts`,\nand fix GroupedGemmParallel to use `empty_param.shape[0]` instead of\n`module.num_experts`. Remove RouterParallel tests and add new expert\nparallel\nforward/backward tests to TensorParallelTesterMixin.\n\n* Harden _can_set_{attn,experts}_implementation against sys.modules eviction\n\nUse sys.modules.get(cls.__module__) and treat a missing entry the same as\nthe existing Jupyter/REPL case (no __file__) -> return False.\n\nWithout this, PreTrainedModel.__init__ crashes with KeyError whenever\nanother test (e.g. tests/utils/test_auto_docstring._clear) has evicted\ntransformers.models.* entries from sys.modules while their class objects\nare still live.",
+                "verified_at": "2026-04-21T07:01:38Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/9dff7ca5c9693f4c02cdd2a9c2abc4772fcea5da",
+        "html_url": "https://github.com/huggingface/transformers/commit/9dff7ca5c9693f4c02cdd2a9c2abc4772fcea5da",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/9dff7ca5c9693f4c02cdd2a9c2abc4772fcea5da/comments",
+        "author": {
+            "login": "AmineDiro",
+            "id": 14312141,
+            "node_id": "MDQ6VXNlcjE0MzEyMTQx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/14312141?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/AmineDiro",
+            "html_url": "https://github.com/AmineDiro",
+            "followers_url": "https://api.github.com/users/AmineDiro/followers",
+            "following_url": "https://api.github.com/users/AmineDiro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/AmineDiro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/AmineDiro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/AmineDiro/subscriptions",
+            "organizations_url": "https://api.github.com/users/AmineDiro/orgs",
+            "repos_url": "https://api.github.com/users/AmineDiro/repos",
+            "events_url": "https://api.github.com/users/AmineDiro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/AmineDiro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "a6dab9f359034b2745f787c5f4287747b8b62d30",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/a6dab9f359034b2745f787c5f4287747b8b62d30",
+                "html_url": "https://github.com/huggingface/transformers/commit/a6dab9f359034b2745f787c5f4287747b8b62d30"
+            }
+        ]
+    },
+    {
+        "sha": "a6dab9f359034b2745f787c5f4287747b8b62d30",
+        "node_id": "C_kwDOCUB6odoAKGE2ZGFiOWYzNTkwMzRiMjc0NWY3ODdjNWY0Mjg3NzQ3YjhiNjJkMzA",
+        "commit": {
+            "author": {
+                "name": "Harshal Janjani",
+                "email": "harshaljanjani@gmail.com",
+                "date": "2026-04-21T07:01:34Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-21T07:01:34Z"
+            },
+            "message": "feat[vLLM \u00d7 v5]: Add vLLM compatibility for audio models (#45326)\n\n* chore: Add vLLM compat for audio models\n\n* fix: Fix ci/circleci: check_repository_consistency\n\n* nit: Skip incompatible test",
+            "tree": {
+                "sha": "99f55ed6d4613bdbc42063905694b7789a5e2fc6",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/99f55ed6d4613bdbc42063905694b7789a5e2fc6"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/a6dab9f359034b2745f787c5f4287747b8b62d30",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp5yDOCRC1aQ7uu5UhlAAAyJcQAD46yvHSc2Y6TAt9MGr3qWfX\nAaKumyJ3IaU/P0CL7ZtpDcaJvUPB5nSCsiEr3y6pv+XFnrYtGVLjZ14hGbNGdn3c\nuYVLimskLSbnYLPYk9KuATCPQWouRIawhBADN1QcrOh3ctLspdN8auIadEwiQsjs\nOcU8K/NCrNcmK8vXttZJeGdkHY+F0nNBUzzYnsXshhWNKgS4h8SAr77IblbfgmIa\nRIPyIS8tzQuF98d1azkojYQKda8fQojj59bhAfYQA33+MBuCZLYY3l0YMix4aXzO\nf6PF7pQK5ZKcXGO2P9bYMgm5Wplj9xgLyumPRR+iU7g1d0VKFeh63PuT1yWDa2uV\n1b11Q6OKzzKSp9qO8AK3V1dtvic1alVUvQ2POFJc77UaT5G63GGVy5zr94F+uoM+\n3dx8p8Mm6ZvptGLWaimW1Ow5NeVDS7ODlXRbZYsKUbRqw5CNi8ujfa4xeh+WSwlo\nAPpKQldmyRjHPHw7G3UnpJn4zh+Th7k64lxAH1jFLYFWCp+jH9rQMy1nKgr61PMI\nstsGkfZdm8a9kfDwAuXZj7z0YNoi/E7xvSfUypuxtHgkrj4t555IJHz4Yekmab9o\nj4ZubdRSTJsOe2lkHubveENkoqAXj60r7jnpEPLQ9uoQ9l2qr9ApH0qOdhPIDkHz\n7FwxyEb+47lteFOzICIF\n=Lc1J\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 99f55ed6d4613bdbc42063905694b7789a5e2fc6\nparent 5042bb7eb64b69efd351482a05b3803c48955cb4\nauthor Harshal Janjani <harshaljanjani@gmail.com> 1776754894 +0400\ncommitter GitHub <noreply@github.com> 1776754894 +0200\n\nfeat[vLLM \u00d7 v5]: Add vLLM compatibility for audio models (#45326)\n\n* chore: Add vLLM compat for audio models\n\n* fix: Fix ci/circleci: check_repository_consistency\n\n* nit: Skip incompatible test",
+                "verified_at": "2026-04-21T07:01:35Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/a6dab9f359034b2745f787c5f4287747b8b62d30",
+        "html_url": "https://github.com/huggingface/transformers/commit/a6dab9f359034b2745f787c5f4287747b8b62d30",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/a6dab9f359034b2745f787c5f4287747b8b62d30/comments",
+        "author": {
+            "login": "harshaljanjani",
+            "id": 75426551,
+            "node_id": "MDQ6VXNlcjc1NDI2NTUx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75426551?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/harshaljanjani",
+            "html_url": "https://github.com/harshaljanjani",
+            "followers_url": "https://api.github.com/users/harshaljanjani/followers",
+            "following_url": "https://api.github.com/users/harshaljanjani/following{/other_user}",
+            "gists_url": "https://api.github.com/users/harshaljanjani/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/harshaljanjani/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/harshaljanjani/subscriptions",
+            "organizations_url": "https://api.github.com/users/harshaljanjani/orgs",
+            "repos_url": "https://api.github.com/users/harshaljanjani/repos",
+            "events_url": "https://api.github.com/users/harshaljanjani/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/harshaljanjani/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "5042bb7eb64b69efd351482a05b3803c48955cb4",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/5042bb7eb64b69efd351482a05b3803c48955cb4",
+                "html_url": "https://github.com/huggingface/transformers/commit/5042bb7eb64b69efd351482a05b3803c48955cb4"
+            }
+        ]
+    },
+    {
+        "sha": "5042bb7eb64b69efd351482a05b3803c48955cb4",
+        "node_id": "C_kwDOCUB6odoAKDUwNDJiYjdlYjY0YjY5ZWZkMzUxNDgyYTA1YjM4MDNjNDg5NTVjYjQ",
+        "commit": {
+            "author": {
+                "name": "Cyril Vallez",
+                "email": "cyril.vallez@huggingface.co",
+                "date": "2026-04-21T00:19:02Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-21T00:19:02Z"
+            },
+            "message": "Reapply modular to examples (#45527)\n\n* fix and reconvert\n\n* remove\n\n* fix",
+            "tree": {
+                "sha": "839d78673b06631db19de2b970500b4dd6f00167",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/839d78673b06631db19de2b970500b4dd6f00167"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/5042bb7eb64b69efd351482a05b3803c48955cb4",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp5sJ2CRC1aQ7uu5UhlAAAOtEQADncFmY9moEQOv8oW+X2K6Yf\nO2mv+a/c02NRbzHajn3Mzv9Fqugw9w7WcV3Gg02cZEpqEO+uZvJITiGDrSu4PETg\n4d1kX3A379g3YB/GP2uazP/NqkzZwHSuV9F0stXUm/2VDzqsUUhL18TGwXXO32XU\nQF2jEun49CoPKZKk3P+LApZ26sYDdE5vwGKLtZLhJA0+i9+yTvwJ3xcovHZImd6K\n1JwIvgXwEmIk2Iz1F9/3/xixTdE+4SXOmE5YSaSEOzkCEH/YRCfRBHstZ3gi02O+\n77lhOy/8nx2WNuAqn6ttSuCxLyGglRdg2WVDInkCpi/9SyDJjUDV1uG49gVGzaP4\nGzWpsCjQLjZEZ70FUbkD0FnU1KJ9N/Hc+LlH9xW56Y5aARWRQMTZmGP9Vi+pn0ta\nuT/ILHaYLykC1BRBRRzQpm+PDxZBMDG10MCDZtOtVVgaAkUEoo3s3Q9irlSsfjVW\nd1tYlqV6zE19lvQM1nyqbd+ObO+49w9V+rezWJ2I79yL8AUR/JuGUcdWRFOTxl+m\n41WLmYSXiVCVFs8MuMv8vj144bkahnq18Go3jzKjr1EbMrBUF1R3GBUKvwGT8YSn\nQiGDU0TLuN2ZdTAWOayJi2tbx2U31FspHyvRqMDTDocQ1931t22MvvV6sAci3oLF\nZqFgyNorcYtjFedC2ljr\n=gpeb\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 839d78673b06631db19de2b970500b4dd6f00167\nparent ef97a7525dc6e4665db4ba5e1ec40d79e43cc74e\nauthor Cyril Vallez <cyril.vallez@huggingface.co> 1776730742 +0200\ncommitter GitHub <noreply@github.com> 1776730742 +0200\n\nReapply modular to examples (#45527)\n\n* fix and reconvert\n\n* remove\n\n* fix",
+                "verified_at": "2026-04-21T00:19:02Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/5042bb7eb64b69efd351482a05b3803c48955cb4",
+        "html_url": "https://github.com/huggingface/transformers/commit/5042bb7eb64b69efd351482a05b3803c48955cb4",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/5042bb7eb64b69efd351482a05b3803c48955cb4/comments",
+        "author": {
+            "login": "Cyrilvallez",
+            "id": 71554963,
+            "node_id": "MDQ6VXNlcjcxNTU0OTYz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/71554963?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Cyrilvallez",
+            "html_url": "https://github.com/Cyrilvallez",
+            "followers_url": "https://api.github.com/users/Cyrilvallez/followers",
+            "following_url": "https://api.github.com/users/Cyrilvallez/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Cyrilvallez/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Cyrilvallez/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Cyrilvallez/subscriptions",
+            "organizations_url": "https://api.github.com/users/Cyrilvallez/orgs",
+            "repos_url": "https://api.github.com/users/Cyrilvallez/repos",
+            "events_url": "https://api.github.com/users/Cyrilvallez/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Cyrilvallez/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "ef97a7525dc6e4665db4ba5e1ec40d79e43cc74e",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/ef97a7525dc6e4665db4ba5e1ec40d79e43cc74e",
+                "html_url": "https://github.com/huggingface/transformers/commit/ef97a7525dc6e4665db4ba5e1ec40d79e43cc74e"
+            }
+        ]
+    },
+    {
+        "sha": "ef97a7525dc6e4665db4ba5e1ec40d79e43cc74e",
+        "node_id": "C_kwDOCUB6odoAKGVmOTdhNzUyNWRjNmU0NjY1ZGI0YmE1ZTFlYzQwZDc5ZTQzY2M3NGU",
+        "commit": {
+            "author": {
+                "name": "Tarek Ziade",
+                "email": "tarek@ziade.org",
+                "date": "2026-04-20T16:15:08Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-20T16:15:08Z"
+            },
+            "message": "qa: re-run modular converter when the script itself is modified (#45528)\n\nwhen changing the checker itself, we want to ignore the `guaranteed_no_diff` shortcut since changing the checker might impact models not in the PR",
+            "tree": {
+                "sha": "c6f7e7c532b7af6e47209a5c57565faa025e5552",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/c6f7e7c532b7af6e47209a5c57565faa025e5552"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/ef97a7525dc6e4665db4ba5e1ec40d79e43cc74e",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp5lLiCRC1aQ7uu5UhlAAANLMQADeNp+pFDLTA1CCFywbnzPKn\nGC/FzssVQ6VubDufZ5vb21Oyqzl5gOiGo4ETEn5kOJ0oY0szYFJItKYxqaXjnHJV\nxb9vtr+gdQ/bBwm/JIkqgK+dEC2gYiChYJBur4j2NkoBkWlHlAmsgX6e1vEqIEmE\nXExun1cmIRccgl38Q2DKPs4ljq2kIgvldl5QjNC1+iie9+XcX/cnbfqRaRtoM8xf\n0xGAqmTYJ8IMbxvjSd/5VvOTnMOk7a2b5p//6YleRWIJ27zEblEyYXPOYT8b+hJ6\nUU6cDaDe38dDe0gucGowy3UIMLUAv+FTvrgfop7jY+Snsj4GDO/E3gq+KHmVR7+J\nEttzpthLKwm6C029pykcVGc8yykhvtS2B7sNtRppzGEafX2FHKBqEZPMVlvVzEHz\noJ7dBHiBJYwvId+2DPl2sacBws7Acy+JpLPx4213mkrsfXdKpMnTewvrbYgs5c40\nRRmK998X0yrBCzhIn4gkipEiSxnw+6uAMvHgCED6qDPuRBKSJa5cjTgLO+2S2jj1\ngw3LYwQODfGj2d9mdDvaJDS4eUqQFUJUiitZC6EIMkNY1eG0abcs74Wn1XIOmfI4\nxKLbXt15ki9wIvnbvaGH33Mjka1gvEP1wHsSNZHMp9Enmrh+oV1tA4KqIIYwKh2X\nIdK7vAiXmplPjv/Zt8DW\n=lvps\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree c6f7e7c532b7af6e47209a5c57565faa025e5552\nparent 7a0d582ad498e7bd6b6d9528826ebea9bb1389ca\nauthor Tarek Ziade <tarek@ziade.org> 1776701708 +0200\ncommitter GitHub <noreply@github.com> 1776701708 +0000\n\nqa: re-run modular converter when the script itself is modified (#45528)\n\nwhen changing the checker itself, we want to ignore the `guaranteed_no_diff` shortcut since changing the checker might impact models not in the PR",
+                "verified_at": "2026-04-20T16:22:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/ef97a7525dc6e4665db4ba5e1ec40d79e43cc74e",
+        "html_url": "https://github.com/huggingface/transformers/commit/ef97a7525dc6e4665db4ba5e1ec40d79e43cc74e",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/ef97a7525dc6e4665db4ba5e1ec40d79e43cc74e/comments",
+        "author": {
+            "login": "tarekziade",
+            "id": 250019,
+            "node_id": "MDQ6VXNlcjI1MDAxOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/250019?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tarekziade",
+            "html_url": "https://github.com/tarekziade",
+            "followers_url": "https://api.github.com/users/tarekziade/followers",
+            "following_url": "https://api.github.com/users/tarekziade/following{/other_user}",
+            "gists_url": "https://api.github.com/users/tarekziade/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/tarekziade/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/tarekziade/subscriptions",
+            "organizations_url": "https://api.github.com/users/tarekziade/orgs",
+            "repos_url": "https://api.github.com/users/tarekziade/repos",
+            "events_url": "https://api.github.com/users/tarekziade/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/tarekziade/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "7a0d582ad498e7bd6b6d9528826ebea9bb1389ca",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/7a0d582ad498e7bd6b6d9528826ebea9bb1389ca",
+                "html_url": "https://github.com/huggingface/transformers/commit/7a0d582ad498e7bd6b6d9528826ebea9bb1389ca"
+            }
+        ]
+    },
+    {
+        "sha": "7a0d582ad498e7bd6b6d9528826ebea9bb1389ca",
+        "node_id": "C_kwDOCUB6odoAKDdhMGQ1ODJhZDQ5OGU3YmQ2YjZkOTUyODgyNmViZWE5YmIxMzg5Y2E",
+        "commit": {
+            "author": {
+                "name": "UsamaKenway",
+                "email": "56207634+UsamaKenway@users.noreply.github.com",
+                "date": "2026-04-20T15:44:55Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-20T15:44:55Z"
+            },
+            "message": "[GGUF] Reduce peak RAM usage by casting dequantized tensors early during load (#45386)\n\n* [GGUF] cast dequantized tensors to target dtype during load\n\nSigned-off-by: UsamaKenway <usamakenway@gmail.com>\n\n* [GGUF] refac dtype, quantization casting\n\nSigned-off-by: Usama Kenway <usamakenway@gmail.com>\n\n* [GGUF] refac dtype\n\nSigned-off-by: Usama Kenway <usamakenway@gmail.com>\n\n---------\n\nSigned-off-by: UsamaKenway <usamakenway@gmail.com>\nSigned-off-by: Usama Kenway <usamakenway@gmail.com>\nCo-authored-by: Marc Sun <57196510+SunMarc@users.noreply.github.com>",
+            "tree": {
+                "sha": "31ec277abe2b8f90ee91bd9d7bed92657d39014a",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/31ec277abe2b8f90ee91bd9d7bed92657d39014a"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/7a0d582ad498e7bd6b6d9528826ebea9bb1389ca",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp5koHCRC1aQ7uu5UhlAAABxMQADSd2fiMFFUQcxIXYQiYUQXX\n+2gYel6W1y0L2KZiwQNmlkj2TtXAIRq/7YBdlRL8oqn50hPfRnlkln9UgWXKGMGp\nS2RCH/ydlnywfJpVTXbSRariC323OuX3bR11pco/6MmZaAojYmhBnqgEiDLgAhST\n8zWh02p0gHYVaJLR1KkFE8p7FKC2HF5N3CS3mxR75JDH/yUdCXj0h/zuspwU7MDU\nqcUbCiRNtBQYcQkXj2MOf6lbgU/wp1KAgX6xaExhpZ7zShD/ShiW5l5cigUQSKnz\n0w2rCaiVFf8gQPiPbx1GMkH1XR2d5wKL2n9Ryo3XC/V/CJWeS4DyGOatRQWIa1FF\nBcrUA5yBS3VWtjJN6CsOoayVnihg128AnAyh05IQ/8/LtlTaSqR/dDNZDbWIkUO5\nD3gTLaxnTDt9BpfQPLBpFa1o+7CBqXsFv7BNW5Ks0+E4LZqeUdzNiG5rN8RR0oKv\nv01cqJ0ukubDGTjGlOdNQL5+Drm0gTAAxgmIFOhqUC8dipCOUC0dFWkGX7iJe4Nq\n0+Ab8mtJcpVEaTr7df7DXkk1gnEHeo6Ehpx10eHRMb1jGpw/5zcKS437O+msf4Hk\n6ZtNMEbgdEcOISbSrS8PJRC+cqH2KJ22w4l2+VFFMCNmMlli9nZV/zPc839Qk4nd\nNekLs1D5r9l1ADDaALvT\n=b1PR\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 31ec277abe2b8f90ee91bd9d7bed92657d39014a\nparent ce77bc37dde78084b8d1fd1798debe4323a15084\nauthor UsamaKenway <56207634+UsamaKenway@users.noreply.github.com> 1776699895 +0200\ncommitter GitHub <noreply@github.com> 1776699895 +0000\n\n[GGUF] Reduce peak RAM usage by casting dequantized tensors early during load (#45386)\n\n* [GGUF] cast dequantized tensors to target dtype during load\n\nSigned-off-by: UsamaKenway <usamakenway@gmail.com>\n\n* [GGUF] refac dtype, quantization casting\n\nSigned-off-by: Usama Kenway <usamakenway@gmail.com>\n\n* [GGUF] refac dtype\n\nSigned-off-by: Usama Kenway <usamakenway@gmail.com>\n\n---------\n\nSigned-off-by: UsamaKenway <usamakenway@gmail.com>\nSigned-off-by: Usama Kenway <usamakenway@gmail.com>\nCo-authored-by: Marc Sun <57196510+SunMarc@users.noreply.github.com>",
+                "verified_at": "2026-04-20T15:45:12Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/7a0d582ad498e7bd6b6d9528826ebea9bb1389ca",
+        "html_url": "https://github.com/huggingface/transformers/commit/7a0d582ad498e7bd6b6d9528826ebea9bb1389ca",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/7a0d582ad498e7bd6b6d9528826ebea9bb1389ca/comments",
+        "author": {
+            "login": "UsamaKenway",
+            "id": 56207634,
+            "node_id": "MDQ6VXNlcjU2MjA3NjM0",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56207634?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/UsamaKenway",
+            "html_url": "https://github.com/UsamaKenway",
+            "followers_url": "https://api.github.com/users/UsamaKenway/followers",
+            "following_url": "https://api.github.com/users/UsamaKenway/following{/other_user}",
+            "gists_url": "https://api.github.com/users/UsamaKenway/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/UsamaKenway/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/UsamaKenway/subscriptions",
+            "organizations_url": "https://api.github.com/users/UsamaKenway/orgs",
+            "repos_url": "https://api.github.com/users/UsamaKenway/repos",
+            "events_url": "https://api.github.com/users/UsamaKenway/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/UsamaKenway/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "ce77bc37dde78084b8d1fd1798debe4323a15084",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/ce77bc37dde78084b8d1fd1798debe4323a15084",
+                "html_url": "https://github.com/huggingface/transformers/commit/ce77bc37dde78084b8d1fd1798debe4323a15084"
+            }
+        ]
+    },
+    {
+        "sha": "ce77bc37dde78084b8d1fd1798debe4323a15084",
+        "node_id": "C_kwDOCUB6odoAKGNlNzdiYzM3ZGRlNzgwODRiOGQxZmQxNzk4ZGViZTQzMjNhMTUwODQ",
+        "commit": {
+            "author": {
+                "name": "jiqing-feng",
+                "email": "jiqing.feng@intel.com",
+                "date": "2026-04-20T15:39:09Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-20T15:39:09Z"
+            },
+            "message": "Fix CSM `TextToAudioPipeline` missing `<bos>` token (#45525)\n\nfix csm pipeline\n\nSigned-off-by: jiqing-feng <jiqing.feng@intel.com>",
+            "tree": {
+                "sha": "995a6784545918e1504bc6798457500640b93599",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/995a6784545918e1504bc6798457500640b93599"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/ce77bc37dde78084b8d1fd1798debe4323a15084",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp5kitCRC1aQ7uu5UhlAAA4MgQAAkBsFYwqk+usvk5uR2ww7a0\nPytID/W92s/96FGl3zLcb90NT9pzagcyOnLO0dbVnnFSu5qo0EOuyH/u8Q4+dgmT\nN4WUVJ20Iz3G3o/3bWlnriqVAQN/0Bsm8WLG4q82BAps7WJA3Q7IB+kq/iUlSHsb\nq/tMFrMGN51b2H+IwXB2g19b3c4uXpS1ibbuwW355+JJ9ZsXwHn+QBGxhCPLjzcG\nOj1Y5BOGj9qN35PHkt+yKzPOWYOkZIut0kzGCYzbUOsSSyoKLCKpTbhul9bRLO8v\n5ShI/S8VCM/daCrj1ZxqByxfcSjZJuM9jqRG68iDC5jQojcWviZbbkx9Ht2y02iW\n/MzV1wJHtOoT2KrLDud6XMm4TNv+mYyO3hgfwTdSXy96tob0fF5Sm/7oBYRUG9r+\nfem4MhQ7fh7jZmeJbSqePihfwNHyp1KOsMpRnblZ/VY667y9lBcT0nBmXPK9vWvU\ng0z7XfPwdzCl5B8nH5aE8PIB33clg+nWfRfXU+Bu/R6C0Y3TahmD4m/enarT//Ew\nukWqlcQribgZ1vevEmKMPsnF1E9wuc73yqkbvB4foF1V+iKRm7ckrKlXFdgiTUrM\nkDyxzq4jH4NO0zujNzhjAcODxMUvL78mxgVtAMfCVjMg4x6bRdUMz8/pFpD6Glg+\n3c/EvypDDn5pBpaRj49Z\n=lvaN\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 995a6784545918e1504bc6798457500640b93599\nparent 243f2d77177610d9b6f2cfc9aa627c1b6665d731\nauthor jiqing-feng <jiqing.feng@intel.com> 1776699549 +0800\ncommitter GitHub <noreply@github.com> 1776699549 +0000\n\nFix CSM `TextToAudioPipeline` missing `<bos>` token (#45525)\n\nfix csm pipeline\n\nSigned-off-by: jiqing-feng <jiqing.feng@intel.com>",
+                "verified_at": "2026-04-20T15:39:26Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/ce77bc37dde78084b8d1fd1798debe4323a15084",
+        "html_url": "https://github.com/huggingface/transformers/commit/ce77bc37dde78084b8d1fd1798debe4323a15084",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/ce77bc37dde78084b8d1fd1798debe4323a15084/comments",
+        "author": {
+            "login": "jiqing-feng",
+            "id": 107918818,
+            "node_id": "U_kgDOBm614g",
+            "avatar_url": "https://avatars.githubusercontent.com/u/107918818?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jiqing-feng",
+            "html_url": "https://github.com/jiqing-feng",
+            "followers_url": "https://api.github.com/users/jiqing-feng/followers",
+            "following_url": "https://api.github.com/users/jiqing-feng/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jiqing-feng/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jiqing-feng/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jiqing-feng/subscriptions",
+            "organizations_url": "https://api.github.com/users/jiqing-feng/orgs",
+            "repos_url": "https://api.github.com/users/jiqing-feng/repos",
+            "events_url": "https://api.github.com/users/jiqing-feng/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jiqing-feng/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "243f2d77177610d9b6f2cfc9aa627c1b6665d731",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/243f2d77177610d9b6f2cfc9aa627c1b6665d731",
+                "html_url": "https://github.com/huggingface/transformers/commit/243f2d77177610d9b6f2cfc9aa627c1b6665d731"
+            }
+        ]
+    },
+    {
+        "sha": "243f2d77177610d9b6f2cfc9aa627c1b6665d731",
+        "node_id": "C_kwDOCUB6odoAKDI0M2YyZDc3MTc3NjEwZDliNmYyY2ZjOWFhNjI3YzFiNjY2NWQ3MzE",
+        "commit": {
+            "author": {
+                "name": "Quentin Gallou\u00e9dec",
+                "email": "45557362+qgallouedec@users.noreply.github.com",
+                "date": "2026-04-20T15:36:01Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-20T15:36:01Z"
+            },
+            "message": "Raise 400 on model mismatch when `transformers serve` is pinned (#45443)\n\n* Raise 400 on model mismatch when `transformers serve` is pinned\n\n* test\n\n* style",
+            "tree": {
+                "sha": "76f35c96dc693de1104b4b86ad0e05ef61db2dd8",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/76f35c96dc693de1104b4b86ad0e05ef61db2dd8"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/243f2d77177610d9b6f2cfc9aa627c1b6665d731",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp5kfpCRC1aQ7uu5UhlAAAXr0QAKb4vL/0DVXwcXjR8tVT5wXr\nuJCeshlz9gANhC4OT8hMibzRsKC3bJNBMdoyt0r+O/ktJlHyZdSlw8PIQJH95F1a\nY1HZ1weCa4KuCwOWzI5klRdLIkuqHexT6YeHuUuQJpdWLV4YMR1Rn9iedZyrIKLs\nGiht48QBLprODi3ajw60ZiRK04zgqePiMquVcwPC5Lsyr48Gh7CUrX6HTqsRH7Dp\ndLyssw1iqbqWxFMYaxgCSgQqlptFW6i1H35EsFXasyptSIDpb6U5lour9reiQetE\n6FifKI+msrOhqOm11vtBvL3+iMtOlvGHFLrMQizwy71C+hVc/Vb53ORMdm0DWqTE\nudCsw5fKjNi76XK6dO4sXZsHT7+1iQt+K/jizSc2QHdSedlOft4ihhmPhqJas3oz\nR+JMUe6ctrXvC1SzOiFXPx4A0EzIcQsQ0pRaINQxGUD98+o/pMIAOSn6p8mff/ql\nEVgOyQilYG/RxjRcoOY2OIQoQ4Vtn3+0f5frCa/Jv+u4hEaEoliQcFfZ7zrKSMaI\nZEU88k0Xd5E8cHdCLRAFnGnCBtlJSeCmbXXIf1SQ/gp1qEoG5UT6DA+c2eAsDgiy\n/biwTIJsh7NyL09JKUHgLVnAxL855QeeEcRpUjAM/BOVCBOqiB46n8YTsM0R/3po\nQbwiTWxucapsI4QXE+95\n=o8TT\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 76f35c96dc693de1104b4b86ad0e05ef61db2dd8\nparent e15297ebc8f02c706a1caf5b2c7657e37b647dfa\nauthor Quentin Gallou\u00e9dec <45557362+qgallouedec@users.noreply.github.com> 1776699361 -0400\ncommitter GitHub <noreply@github.com> 1776699361 +0000\n\nRaise 400 on model mismatch when `transformers serve` is pinned (#45443)\n\n* Raise 400 on model mismatch when `transformers serve` is pinned\n\n* test\n\n* style",
+                "verified_at": "2026-04-20T15:36:10Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/243f2d77177610d9b6f2cfc9aa627c1b6665d731",
+        "html_url": "https://github.com/huggingface/transformers/commit/243f2d77177610d9b6f2cfc9aa627c1b6665d731",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/243f2d77177610d9b6f2cfc9aa627c1b6665d731/comments",
+        "author": {
+            "login": "qgallouedec",
+            "id": 45557362,
+            "node_id": "MDQ6VXNlcjQ1NTU3MzYy",
+            "avatar_url": "https://avatars.githubusercontent.com/u/45557362?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/qgallouedec",
+            "html_url": "https://github.com/qgallouedec",
+            "followers_url": "https://api.github.com/users/qgallouedec/followers",
+            "following_url": "https://api.github.com/users/qgallouedec/following{/other_user}",
+            "gists_url": "https://api.github.com/users/qgallouedec/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/qgallouedec/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/qgallouedec/subscriptions",
+            "organizations_url": "https://api.github.com/users/qgallouedec/orgs",
+            "repos_url": "https://api.github.com/users/qgallouedec/repos",
+            "events_url": "https://api.github.com/users/qgallouedec/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/qgallouedec/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "e15297ebc8f02c706a1caf5b2c7657e37b647dfa",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/e15297ebc8f02c706a1caf5b2c7657e37b647dfa",
+                "html_url": "https://github.com/huggingface/transformers/commit/e15297ebc8f02c706a1caf5b2c7657e37b647dfa"
+            }
+        ]
+    },
+    {
+        "sha": "e15297ebc8f02c706a1caf5b2c7657e37b647dfa",
+        "node_id": "C_kwDOCUB6odoAKGUxNTI5N2ViYzhmMDJjNzA2YTFjYWY1YjJjNzY1N2UzN2I2NDdkZmE",
+        "commit": {
+            "author": {
+                "name": "Marc Sun",
+                "email": "57196510+SunMarc@users.noreply.github.com",
+                "date": "2026-04-20T15:31:32Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-20T15:31:32Z"
+            },
+            "message": "[serve] Update tool call to switch to `parse_response` (#45485)\n\n* fix tool call to support parse response\n\n* simplify parser\n\n* simplification !\n\n* Update src/transformers/cli/serving/response.py\n\nCo-authored-by: Lysandre Debut <hi@lysand.re>\n\n---------\n\nCo-authored-by: Lysandre Debut <hi@lysand.re>",
+            "tree": {
+                "sha": "601a0f1903ffde1aa111df4edf61c44041676b7d",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/601a0f1903ffde1aa111df4edf61c44041676b7d"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/e15297ebc8f02c706a1caf5b2c7657e37b647dfa",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp5kbkCRC1aQ7uu5UhlAAAuu8QACGxdjm/CJixBtbeCX8fQtCJ\nzIUys4Cz6/ljvWyveiehBu8bwiWR4Nw1dMFv15IWpIJyS06lZE0p/4F/Xc87l2NB\npBKGDu1ZbY82t2BBddW/XZk7VGibkhp8vr7nasjFaZvpLKq4LcpT5hA+EHHeuJjZ\nSLKMZo2IirBwuoUcjnqizf0lZed0oKumI+PT+tR2SMKR2ZKfosT/zNeyDGDvO4us\n5UVDXeyp17G/a0j/k9vKOjcleRVZX9mqTv91cjKEg1u3vwt5jfhpoJG3E7zsYyYu\nJvI0hJBz36ZyVQb/vX0jpUmMa61ejKVz77z1UilVb9dPF9ikwtSDjWITNuVulR7f\nvuScMG8rseJ3mAS2XGSRsZC8HxYZ6A0yot2eCmmcwY60wm6bZnZMvo6sC2r+7DuJ\nKCjFABcqHnkKnL7QF0OrtSSAlUjaPrw17q96lasBq+TxxxDPiRWA5xAE6qjYYLTw\nJbNX1mmD/oDzqmss8kQyjKdkZZktgjNGxbv/W1zcWwGvYerNrj0cGvzppJTmDAsP\nzJxfG7uUUWhrfQjDWaZ4p453B0fS+yfh8KtN0utxcOxynlmBFRI9QO6I+FlpPsxp\nxi1bQFug2AkkveBAJ8cBtKZ9a4amJK9f0lHusO3IVblwUzs5BaZXUexzeILeWM3z\nx9VPhA09KKI/0YxnqIOv\n=xy/E\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 601a0f1903ffde1aa111df4edf61c44041676b7d\nparent 0db33792ed1cc6a61d96f5d59fd0c930db2896fe\nauthor Marc Sun <57196510+SunMarc@users.noreply.github.com> 1776699092 +0200\ncommitter GitHub <noreply@github.com> 1776699092 +0000\n\n[serve] Update tool call to switch to `parse_response` (#45485)\n\n* fix tool call to support parse response\n\n* simplify parser\n\n* simplification !\n\n* Update src/transformers/cli/serving/response.py\n\nCo-authored-by: Lysandre Debut <hi@lysand.re>\n\n---------\n\nCo-authored-by: Lysandre Debut <hi@lysand.re>",
+                "verified_at": "2026-04-20T15:31:48Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/e15297ebc8f02c706a1caf5b2c7657e37b647dfa",
+        "html_url": "https://github.com/huggingface/transformers/commit/e15297ebc8f02c706a1caf5b2c7657e37b647dfa",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/e15297ebc8f02c706a1caf5b2c7657e37b647dfa/comments",
+        "author": {
+            "login": "SunMarc",
+            "id": 57196510,
+            "node_id": "MDQ6VXNlcjU3MTk2NTEw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/57196510?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/SunMarc",
+            "html_url": "https://github.com/SunMarc",
+            "followers_url": "https://api.github.com/users/SunMarc/followers",
+            "following_url": "https://api.github.com/users/SunMarc/following{/other_user}",
+            "gists_url": "https://api.github.com/users/SunMarc/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/SunMarc/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/SunMarc/subscriptions",
+            "organizations_url": "https://api.github.com/users/SunMarc/orgs",
+            "repos_url": "https://api.github.com/users/SunMarc/repos",
+            "events_url": "https://api.github.com/users/SunMarc/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/SunMarc/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "0db33792ed1cc6a61d96f5d59fd0c930db2896fe",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/0db33792ed1cc6a61d96f5d59fd0c930db2896fe",
+                "html_url": "https://github.com/huggingface/transformers/commit/0db33792ed1cc6a61d96f5d59fd0c930db2896fe"
+            }
+        ]
+    },
+    {
+        "sha": "0db33792ed1cc6a61d96f5d59fd0c930db2896fe",
+        "node_id": "C_kwDOCUB6odoAKDBkYjMzNzkyZWQxY2M2YTYxZDk2ZjVkNTlmZDBjOTMwZGIyODk2ZmU",
+        "commit": {
+            "author": {
+                "name": "Anton Vlasjuk",
+                "email": "73884904+vasqu@users.noreply.github.com",
+                "date": "2026-04-20T13:44:55Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-20T13:44:55Z"
+            },
+            "message": "[`Conversion Mapping`] Small fixups (#45483)\n\n* fix\n\n* fix",
+            "tree": {
+                "sha": "9b097e99d600a65d15d3bc551467fa56e5c4e583",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/9b097e99d600a65d15d3bc551467fa56e5c4e583"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/0db33792ed1cc6a61d96f5d59fd0c930db2896fe",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp5i3nCRC1aQ7uu5UhlAAAzHIQAE7fOujM19HKguCaRPd5oEi/\nk7g6y7G/YQh1Z7WKB0USsr4BWxHC5a3UJZ+AufWxKLteB7yzf4y5JtgAbF/VJv4t\nfU08Ce2078Q6ojMQNkVyoFP5HUi9GS0SaV4jnB0CvTurNoTEa1bWnJkf2z1eTyVY\n4hoG8IeqKJkJDOHe9v+VR5HPJpTF5Jgz/W7UX6QL6ZzYanvRzwceyaIhzdhEWRH3\ntvXFW567s+brLZXclMn3CWQEP41kjb3nAmmDpi5lBDphjQo55cE2+NKt1TcIfGKM\nvY5V356elmNtCfj5l6ircJVaBoxUajZM7xCDPmfWeVodAW1h6FzkPSGz7ynU+3iy\n97Kk9hXkrkI4iAoYXojCJHAlFxSiM9ilB/E8DD/T9Wsi+HGxt53szoxP7ozpyHHx\nxg5YY4vFih7rh0Dg3YqOvhfhaU1qn2h7G6ol1ZXA2Z79xWXb7/IDnITtZqvH6Zhm\nVlPSP4tTgpVyv1E6FUbrLq8+mR/wcDbXOpHSSxz/cLR/8k6y7oFyfdFAiWQWCA3Q\nOCDzEc10KjbKjGhc3O4Tc7EIS3vnIQ/fKqZ24OoaJ1AOaLikCp37frC0Bqz4cxeL\nBlC4Aqc/Z0stUtuWyJliYoceo+3BHwzbAu2NKFjubyCQ5BX4Za99JL7sSmkIfjpY\nXXky4sn/bFP+wqmEIm9W\n=tpqO\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 9b097e99d600a65d15d3bc551467fa56e5c4e583\nparent 253809c97d08af1a3df17915d5deb6539244d677\nauthor Anton Vlasjuk <73884904+vasqu@users.noreply.github.com> 1776692695 +0200\ncommitter GitHub <noreply@github.com> 1776692695 +0000\n\n[`Conversion Mapping`] Small fixups (#45483)\n\n* fix\n\n* fix",
+                "verified_at": "2026-04-20T13:45:13Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/0db33792ed1cc6a61d96f5d59fd0c930db2896fe",
+        "html_url": "https://github.com/huggingface/transformers/commit/0db33792ed1cc6a61d96f5d59fd0c930db2896fe",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/0db33792ed1cc6a61d96f5d59fd0c930db2896fe/comments",
+        "author": {
+            "login": "vasqu",
+            "id": 73884904,
+            "node_id": "MDQ6VXNlcjczODg0OTA0",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73884904?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vasqu",
+            "html_url": "https://github.com/vasqu",
+            "followers_url": "https://api.github.com/users/vasqu/followers",
+            "following_url": "https://api.github.com/users/vasqu/following{/other_user}",
+            "gists_url": "https://api.github.com/users/vasqu/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/vasqu/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/vasqu/subscriptions",
+            "organizations_url": "https://api.github.com/users/vasqu/orgs",
+            "repos_url": "https://api.github.com/users/vasqu/repos",
+            "events_url": "https://api.github.com/users/vasqu/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/vasqu/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "253809c97d08af1a3df17915d5deb6539244d677",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/253809c97d08af1a3df17915d5deb6539244d677",
+                "html_url": "https://github.com/huggingface/transformers/commit/253809c97d08af1a3df17915d5deb6539244d677"
+            }
+        ]
+    },
+    {
+        "sha": "253809c97d08af1a3df17915d5deb6539244d677",
+        "node_id": "C_kwDOCUB6odoAKDI1MzgwOWM5N2QwOGFmMWEzZGYxNzkxNWQ1ZGViNjUzOTI0NGQ2Nzc",
+        "commit": {
+            "author": {
+                "name": "Anton Vlasjuk",
+                "email": "73884904+vasqu@users.noreply.github.com",
+                "date": "2026-04-20T13:13:03Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-20T13:13:03Z"
+            },
+            "message": ":rotating_light: [`Kernels`] Fix kernel function registration (#45420)\n\n* fix attmpt\n\n* proper fix - also works with deepspeed\n\n* rely less on internals and add rotary to training\n\n* move under the try as well",
+            "tree": {
+                "sha": "3e42df4904ca3a8f2172197828d97b7b42a94cf4",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/3e42df4904ca3a8f2172197828d97b7b42a94cf4"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/253809c97d08af1a3df17915d5deb6539244d677",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp5iZvCRC1aQ7uu5UhlAAAKigQAGGs6walxt82EgqSqy94k5x2\nBzk0u3JhPCwX5Hzbi6/FHQhqoOv+QdJ60FwyMivZGelkK1zoolMmP7+mR8vbRO7A\nscEvmJRdJgJji7cLgSsr94AeyGgY6Ngvykukd2r0roMHrLDsGGgnNZht2HwKdiND\ne6oTSeI9rWMTOoeRuec55HHSJM2EQ12CdPL+M6GZh5ZJtyoi4p0XyhPj20XtLxnp\necB5IyyTgTO3+394hgIZcHYbl/KLcHocaybYTJPMzYI2xOAqXByBWl8Wk9w+doiz\nxnSliir9c6H5cVLXSOYYzFOiyB9/pexM1yAwOWNRseWdMMO2oECy4L5+g1YxdjIl\nE18iOkSV0HvU7iLIrr3ut/tI0G8IH1DrXnGOCSRgeBzuX7doz6ht9aDZs9Flofk7\nCqkUtsZlrbpZByRHE0i2vmZMDTw+z+6FXPl9Mh8nehSi4gecIs+b6Hk/C+cY2yHj\nyAcsrGgkP+jpKHNo1KxpRayIlfZJ6MwB+fFwj+MlsbM9vn4gq75sKMeeh2eS3ECX\n3CCuQFAPEh1qkosLYvQAW02nszmpl49XX428EpZ12hpk5yA2hA3cNVuH5oS0eFee\nYSJMeXD68oVy+Rgol61NnhuGXHdUNTYylFOgAzxliYH9ra+dGnK13zGLgzr1dtl9\n4QFwpdNIRzFFSlq6U7pr\n=Y5Vf\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 3e42df4904ca3a8f2172197828d97b7b42a94cf4\nparent 79f90bc68a652285f85ab7779bb2f07bed255e4f\nauthor Anton Vlasjuk <73884904+vasqu@users.noreply.github.com> 1776690783 +0200\ncommitter GitHub <noreply@github.com> 1776690783 +0000\n\n:rotating_light: [`Kernels`] Fix kernel function registration (#45420)\n\n* fix attmpt\n\n* proper fix - also works with deepspeed\n\n* rely less on internals and add rotary to training\n\n* move under the try as well",
+                "verified_at": "2026-04-20T13:13:20Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/253809c97d08af1a3df17915d5deb6539244d677",
+        "html_url": "https://github.com/huggingface/transformers/commit/253809c97d08af1a3df17915d5deb6539244d677",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/253809c97d08af1a3df17915d5deb6539244d677/comments",
+        "author": {
+            "login": "vasqu",
+            "id": 73884904,
+            "node_id": "MDQ6VXNlcjczODg0OTA0",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73884904?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vasqu",
+            "html_url": "https://github.com/vasqu",
+            "followers_url": "https://api.github.com/users/vasqu/followers",
+            "following_url": "https://api.github.com/users/vasqu/following{/other_user}",
+            "gists_url": "https://api.github.com/users/vasqu/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/vasqu/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/vasqu/subscriptions",
+            "organizations_url": "https://api.github.com/users/vasqu/orgs",
+            "repos_url": "https://api.github.com/users/vasqu/repos",
+            "events_url": "https://api.github.com/users/vasqu/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/vasqu/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "79f90bc68a652285f85ab7779bb2f07bed255e4f",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/79f90bc68a652285f85ab7779bb2f07bed255e4f",
+                "html_url": "https://github.com/huggingface/transformers/commit/79f90bc68a652285f85ab7779bb2f07bed255e4f"
+            }
+        ]
+    },
+    {
+        "sha": "79f90bc68a652285f85ab7779bb2f07bed255e4f",
+        "node_id": "C_kwDOCUB6odoAKDc5ZjkwYmM2OGE2NTIyODVmODVhYjc3NzliYjJmMDdiZWQyNTVlNGY",
+        "commit": {
+            "author": {
+                "name": "Tarek Ziade",
+                "email": "tarek@ziade.org",
+                "date": "2026-04-20T12:30:12Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-20T12:30:12Z"
+            },
+            "message": "Revert \"Fix: modular image processors (#45492)\" (#45531)\n\nThis reverts commit cba1e406d27fdaf96a30c7f9562ccf85fd41946a.",
+            "tree": {
+                "sha": "5851533c6d6eca312b7e0cb725f71f050e9f5f31",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/5851533c6d6eca312b7e0cb725f71f050e9f5f31"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/79f90bc68a652285f85ab7779bb2f07bed255e4f",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp5hxkCRC1aQ7uu5UhlAAANOQQAI35NYQcbP8k5gra+MmtB3tW\nBvZgRks2rBxoPYeAXmY3oQmSMWDR/j4utxgNaAQC9HVQywGtul0vDC2ZCRUFwnpf\nOaJTg/0WvakVAW0OLCSfpZWMrwbUFgwzOtuf5QrXDBEtwUPYgSS10yKVszXTMUh0\nJorOYtm+XLyfStQTUh8qQ3UEJjUBcIaZlB59QoOK4OWXtD+2YphlsJ8aJJB4LWO1\ngRlwbjWwmb24YQqW6Yc7TWeGLS9MV2Zgdz58YdFJcVAOrhDFrDmF/lvccEi19uw1\nik5er4vLyzq25pwpiYFQSwn9v3mdTvT4GLJ02T6KYDn1062UzP7gOhgwYaJkJ1w5\nFHXfJ5qdwZPss7otC+BswNMx7EqOUGTVFATPfwWpV6UtS1XKzaE6jX2OWss2W05r\nhk9rJOhbSwCj/sZy3eZca09WGvJOhTj7GaGXaBktJqGPOzoMAGXfFyH6ugvUt4m5\nPNFfYjTcC13Az4nHF1wMXl6u55XoYWh07kDi+8a7Lbjh6p/T0SxKSpGgcoDLOR/W\n4Ee3Exh3iN7Eq302aYJWb5WEoDFnCVP04jogQyESl0GlGK+ztkZG7zLOiJEMv3ez\nUlKkiVU9Nq85TxUd+ts4WShtrJOiaOGJaZYDAnrtQspRJWYQLaAxIRQIMXs4TLs7\ncd6QWA2sX09SvIL3ZFjK\n=e9xX\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 5851533c6d6eca312b7e0cb725f71f050e9f5f31\nparent c3ec5ff48e0a8350d5ca607690441ae5733872ba\nauthor Tarek Ziade <tarek@ziade.org> 1776688212 +0200\ncommitter GitHub <noreply@github.com> 1776688212 +0000\n\nRevert \"Fix: modular image processors (#45492)\" (#45531)\n\nThis reverts commit cba1e406d27fdaf96a30c7f9562ccf85fd41946a.",
+                "verified_at": "2026-04-20T12:30:28Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/79f90bc68a652285f85ab7779bb2f07bed255e4f",
+        "html_url": "https://github.com/huggingface/transformers/commit/79f90bc68a652285f85ab7779bb2f07bed255e4f",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/79f90bc68a652285f85ab7779bb2f07bed255e4f/comments",
+        "author": {
+            "login": "tarekziade",
+            "id": 250019,
+            "node_id": "MDQ6VXNlcjI1MDAxOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/250019?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tarekziade",
+            "html_url": "https://github.com/tarekziade",
+            "followers_url": "https://api.github.com/users/tarekziade/followers",
+            "following_url": "https://api.github.com/users/tarekziade/following{/other_user}",
+            "gists_url": "https://api.github.com/users/tarekziade/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/tarekziade/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/tarekziade/subscriptions",
+            "organizations_url": "https://api.github.com/users/tarekziade/orgs",
+            "repos_url": "https://api.github.com/users/tarekziade/repos",
+            "events_url": "https://api.github.com/users/tarekziade/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/tarekziade/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "c3ec5ff48e0a8350d5ca607690441ae5733872ba",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/c3ec5ff48e0a8350d5ca607690441ae5733872ba",
+                "html_url": "https://github.com/huggingface/transformers/commit/c3ec5ff48e0a8350d5ca607690441ae5733872ba"
+            }
+        ]
+    },
+    {
+        "sha": "c3ec5ff48e0a8350d5ca607690441ae5733872ba",
+        "node_id": "C_kwDOCUB6odoAKGMzZWM1ZmY0OGUwYTgzNTBkNWNhNjA3NjkwNDQxYWU1NzMzODcyYmE",
+        "commit": {
+            "author": {
+                "name": "Jiwon Jeong",
+                "email": "70795645+jw9603@users.noreply.github.com",
+                "date": "2026-04-20T12:18:17Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-20T12:18:17Z"
+            },
+            "message": "fix: return empty tuple from import_protobuf_decode_error when protobuf is unavailable (#45486)\n\nPreviously the helper raised ImportError when protobuf was not installed.\nBecause Python evaluates the except-class expression lazily, that\nImportError replaced whatever the tokenizer constructor actually raised,\nand the RuntimeError/OSError handlers below never ran either.\n\nReturn () instead so the except clause matches nothing and the real\nexception propagates.\n\nFixes #45459\n\nCo-authored-by: Ita Zaporozhets <31893021+itazap@users.noreply.github.com>",
+            "tree": {
+                "sha": "e704bcfc23d6fb1cc8e044073a0f38e5a40be522",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/e704bcfc23d6fb1cc8e044073a0f38e5a40be522"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/c3ec5ff48e0a8350d5ca607690441ae5733872ba",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp5hmZCRC1aQ7uu5UhlAAA75oQADmUVYo+ULXyNFGsSGVN5qVB\nESiTDUndBBxUfuskPbssJOkkRHT4Hn+YI4aRblzrdO556og/2FT4JWUPdCLwPrK3\ne6NCRq4Yl3I221hOKRWAsyKZX3dKmyZEFCrr3x8oKFiPOmapfzx8QDxe2cZ1G5/n\nY5U7IvIt4vIIsJrJi6j3pCcBbwtmHldKo8QFKJ9fSDg3ZAYeXk2X0+iP4bRSskrk\n2VI7sgDxGxF071CpQcys3fb22vGWGBSC8A0QXiznVa/fayIZPq/G171om0HHRlXe\ndLhTmNIoWHn/kRaFylRt0p/5pCwihSbnsAtZa8TcMctThROW1IYQtBoHhHHqIIKi\npLCo54PEDL/KRjTCkP4VlcNFRAtgGrMjw2nY16cIiNljn43eiCyfR3x9x9eDFKTu\nk1CdzsuPUTcEzwZIwc/8kSJxzRol0yoDxuNQmktUTRy4IKtNaEt5HL34G/88xlws\nIynnHFbH3DHsVPkGl60Gmo+nmCQDRZGS91jk6joKF/Ccai4XrFg75QQeq7q7FNYV\nm86AJpJ+jOi4YCNbJIor0i7zvR6WHuNKCzDCohh7TJDeRd45ODfBXkYajeetYF5G\n3jMsQymIq8Kb+mZB5XjJJ/TxcFWpKxCC1gF5cK5MlVdYMTxosGHJehRy2v3XIlJ+\n6Nm/Pv54wq+rQq6FL3xQ\n=8iam\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree e704bcfc23d6fb1cc8e044073a0f38e5a40be522\nparent cd5bcad54032e902431c4e35411ff416f3b291f2\nauthor Jiwon Jeong <70795645+jw9603@users.noreply.github.com> 1776687497 +0900\ncommitter GitHub <noreply@github.com> 1776687497 +0000\n\nfix: return empty tuple from import_protobuf_decode_error when protobuf is unavailable (#45486)\n\nPreviously the helper raised ImportError when protobuf was not installed.\nBecause Python evaluates the except-class expression lazily, that\nImportError replaced whatever the tokenizer constructor actually raised,\nand the RuntimeError/OSError handlers below never ran either.\n\nReturn () instead so the except clause matches nothing and the real\nexception propagates.\n\nFixes #45459\n\nCo-authored-by: Ita Zaporozhets <31893021+itazap@users.noreply.github.com>",
+                "verified_at": "2026-04-20T12:18:33Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/c3ec5ff48e0a8350d5ca607690441ae5733872ba",
+        "html_url": "https://github.com/huggingface/transformers/commit/c3ec5ff48e0a8350d5ca607690441ae5733872ba",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/c3ec5ff48e0a8350d5ca607690441ae5733872ba/comments",
+        "author": {
+            "login": "jw9603",
+            "id": 70795645,
+            "node_id": "MDQ6VXNlcjcwNzk1NjQ1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70795645?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jw9603",
+            "html_url": "https://github.com/jw9603",
+            "followers_url": "https://api.github.com/users/jw9603/followers",
+            "following_url": "https://api.github.com/users/jw9603/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jw9603/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jw9603/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jw9603/subscriptions",
+            "organizations_url": "https://api.github.com/users/jw9603/orgs",
+            "repos_url": "https://api.github.com/users/jw9603/repos",
+            "events_url": "https://api.github.com/users/jw9603/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jw9603/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "cd5bcad54032e902431c4e35411ff416f3b291f2",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/cd5bcad54032e902431c4e35411ff416f3b291f2",
+                "html_url": "https://github.com/huggingface/transformers/commit/cd5bcad54032e902431c4e35411ff416f3b291f2"
+            }
+        ]
+    },
+    {
+        "sha": "cd5bcad54032e902431c4e35411ff416f3b291f2",
+        "node_id": "C_kwDOCUB6odoAKGNkNWJjYWQ1NDAzMmU5MDI0MzFjNGUzNTQxMWZmNDE2ZjNiMjkxZjI",
+        "commit": {
+            "author": {
+                "name": "Ita Zaporozhets",
+                "email": "31893021+itazap@users.noreply.github.com",
+                "date": "2026-04-20T10:47:57Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-20T10:47:57Z"
+            },
+            "message": "throw error when conversion required (#45078)\n\n* throw error when conversion required\n\n* fix\n\n* typo\n\n* comment\n\n* add test without sentencepiece and add PreTrainedTokenizerFast to class list",
+            "tree": {
+                "sha": "873b6958c45bff0d7f2c901babaa4ecda47739d4",
+                "url": "https://api.github.com/repos/huggingface/transformers/git/trees/873b6958c45bff0d7f2c901babaa4ecda47739d4"
+            },
+            "url": "https://api.github.com/repos/huggingface/transformers/git/commits/cd5bcad54032e902431c4e35411ff416f3b291f2",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp5gRtCRC1aQ7uu5UhlAAAqMQQAA6oBe1o9iE1dBEujeCk8PSm\nlX+U4NCWIcWar7aNOZ8AUDYruFGkrbqBcOVjGHvwVwZgo50MuTw9b2kDCODpCjfC\npw2Ce0ADe3+dlmVdfTPlgeXJYUc01nmM5nXczi5aV3h7UP952hTvMfCF/L1xTP10\nkr4zdQk/1nE0p+k8P6TZohLtZbqlYBoIGtkPdn6F5pbm6WuSXr8NoAZwfUuN3u37\niWiZusnv/H3CgnAyG/vfx4RMKHJDZ8RfsBUHN71AIei6SNgOC6KjzkM0NmRxXMwN\nis0Rvw5v/5/Y+S+YU0OXhfppPRFvF5nBeQ/2oD3yzgjxIQqgGRSMm1G/SPsSCQcd\nG/gDo2H6w+3EcAzVBTGihEaf6cab2+tId1vEG4UpTlU3rpj4D/yHa5WZMH6r0+CQ\nf/+eH31AJ3vclNlyPQD9xEc5GQHMY3fr6VEuU08a4OtTBwfhZ4QVuRCBXjlcczPV\nnUyzI0RLvU8yGcJkPwSoLqiybJMC/RDoYi3pDxYIHoS+jiPjXEd5QutY91+q9sVb\nVX/v0S5porf7stTU0x3WkE6JwCde7mtXztYIMWgXYkVbzh5r7KhP3o7YTSkCgwcT\n0c8e+qGdvWrNU+j+97XJPJAga4365/p3P3jBZEU5jaZiO19f1IAQyZLnGDtBeEz0\nkkkkbWX78reAmQZh/7JK\n=fmsH\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 873b6958c45bff0d7f2c901babaa4ecda47739d4\nparent aba6e22ef248cfc9aebd9780c413809338272bc7\nauthor Ita Zaporozhets <31893021+itazap@users.noreply.github.com> 1776682077 +0200\ncommitter GitHub <noreply@github.com> 1776682077 +0000\n\nthrow error when conversion required (#45078)\n\n* throw error when conversion required\n\n* fix\n\n* typo\n\n* comment\n\n* add test without sentencepiece and add PreTrainedTokenizerFast to class list",
+                "verified_at": "2026-04-20T10:48:13Z"
+            }
+        },
+        "url": "https://api.github.com/repos/huggingface/transformers/commits/cd5bcad54032e902431c4e35411ff416f3b291f2",
+        "html_url": "https://github.com/huggingface/transformers/commit/cd5bcad54032e902431c4e35411ff416f3b291f2",
+        "comments_url": "https://api.github.com/repos/huggingface/transformers/commits/cd5bcad54032e902431c4e35411ff416f3b291f2/comments",
+        "author": {
+            "login": "itazap",
+            "id": 31893021,
+            "node_id": "MDQ6VXNlcjMxODkzMDIx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/31893021?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/itazap",
+            "html_url": "https://github.com/itazap",
+            "followers_url": "https://api.github.com/users/itazap/followers",
+            "following_url": "https://api.github.com/users/itazap/following{/other_user}",
+            "gists_url": "https://api.github.com/users/itazap/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/itazap/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/itazap/subscriptions",
+            "organizations_url": "https://api.github.com/users/itazap/orgs",
+            "repos_url": "https://api.github.com/users/itazap/repos",
+            "events_url": "https://api.github.com/users/itazap/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/itazap/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "aba6e22ef248cfc9aebd9780c413809338272bc7",
+                "url": "https://api.github.com/repos/huggingface/transformers/commits/aba6e22ef248cfc9aebd9780c413809338272bc7",
+                "html_url": "https://github.com/huggingface/transformers/commit/aba6e22ef248cfc9aebd9780c413809338272bc7"
+            }
+        ]
+    }
+]

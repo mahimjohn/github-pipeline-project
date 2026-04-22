@@ -2,16 +2,27 @@ import json
 import os
 import pandas as pd
 
-def transform_commit(config):
+def get_paths(config):
     bronze_path = config["paths"]["bronze"]
     silver_path = config["paths"]["silver"]
+    return bronze_path, silver_path
+
+def get_latest_data_path(bronze_path):
+    all_folders = [
+        f for f in os.listdir(bronze_path)
+        if os.path.isdir(os.path.join(bronze_path, f))
+    ]
     
-    print("Starting commit data transformation...")
-    
-    all_folders = [f for f in os.listdir(bronze_path) 
-               if os.path.isdir(f"{bronze_path}{f}")]
     latest_folder = sorted(all_folders)[-1]
-    data_path = f"{bronze_path}{latest_folder}/huggingface_transformers/"
+    
+    return os.path.join(bronze_path, latest_folder, "huggingface_transformers")
+
+def transform_commit(config):
+    bronze_path, silver_path = get_paths(config)
+    
+    print("Starting commit data transformation")
+    
+    data_path = get_latest_data_path(bronze_path)
     
     print(f" Reading from: {data_path}")
     
@@ -36,15 +47,11 @@ def transform_commit(config):
     print(f"Commits transformed! {len(df_commits)} rows saved to Silver!")
 
 def transform_pull_request(config):
-    bronze_path = config["paths"]["bronze"]
-    silver_path = config["paths"]["silver"]
+    bronze_path, silver_path = get_paths(config)
     
-    print("Starting pull request data transformation...")
+    print("Starting pull request data transformation")
     
-    all_folders = [f for f in os.listdir(bronze_path) 
-               if os.path.isdir(f"{bronze_path}{f}")]
-    latest_folder = sorted(all_folders)[-1]
-    data_path = f"{bronze_path}{latest_folder}/huggingface_transformers/"
+    data_path = get_latest_data_path(bronze_path)
     
     print(f" Reading from: {data_path}")
     
@@ -70,15 +77,11 @@ def transform_pull_request(config):
     print(f" Pull requests transformed! {len(df_pr)} rows saved to Silver!")
     
 def transform_issue(config):
-    bronze_path = config["paths"]["bronze"]
-    silver_path = config["paths"]["silver"]
+    bronze_path, silver_path = get_paths(config)
     
-    print("Starting issue data transformation...")
-    
-    all_folders = [f for f in os.listdir(bronze_path) 
-               if os.path.isdir(f"{bronze_path}{f}")]
-    latest_folder = sorted(all_folders)[-1]
-    data_path = f"{bronze_path}{latest_folder}/huggingface_transformers/"
+    print("Starting issue data transformation")
+
+    data_path = get_latest_data_path(bronze_path)
     
     print(f" Reading from: {data_path}")
     
@@ -103,15 +106,11 @@ def transform_issue(config):
     print(f" Issues transformed! {len(df_issues)} rows saved to Silver!")
     
 def transform_contributor(config):
-    bronze_path = config["paths"]["bronze"]
-    silver_path = config["paths"]["silver"]
+    bronze_path, silver_path = get_paths(config)
+
+    print("Starting contributor data transformation")
     
-    print("Starting contributor data transformation...")
-    
-    all_folders = [f for f in os.listdir(bronze_path) 
-               if os.path.isdir(f"{bronze_path}{f}")]
-    latest_folder = sorted(all_folders)[-1]
-    data_path = f"{bronze_path}{latest_folder}/huggingface_transformers/"
+    data_path = get_latest_data_path(bronze_path)
     
     print(f" Reading from: {data_path}")
     
