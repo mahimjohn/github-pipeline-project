@@ -8,7 +8,7 @@ from src.transform.transform import transform
 with open("config/config.yaml", "r") as f:
     config = yaml.safe_load(f)
 
-#extract(config)
+extract(config)
 
 bronze_ok = validate_bronze(config)
 
