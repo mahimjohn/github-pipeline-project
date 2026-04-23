@@ -62,6 +62,10 @@ def validate_bronze(config):
 def validate_silver(config):
     silver_path = config["paths"]["silver"]
     
+    folders = os.listdir(silver_path)
+    all_folders = sorted(folders)[-1]
+    data_path = f"{silver_path}{all_folders}/"
+    
     print("Starting the validation process of the silver layer...")
     
     expected_files = {
@@ -74,7 +78,7 @@ def validate_silver(config):
     all_passed = True
     
     for filename, expected_fields in expected_files.items():
-        file_path = f"{silver_path}{filename}"
+        file_path = f"{data_path}{filename}"
         
         if not os.path.exists(file_path):
             print(f"{filename} is not found")
