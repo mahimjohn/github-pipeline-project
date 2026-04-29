@@ -69,7 +69,7 @@ def validate_silver(config):
     print("Starting the validation process of the silver layer...")
     
     expected_files = {
-        "commits.parquet":       ["sha", "message", "author_name","date"],
+        "commits.parquet":       ["id", "message", "author_name","date"],
         "pull_requests.parquet": ["id", "state", "user_login", "created_at", "closed_at", "merged_at"],
         "issues.parquet":        ["id", "state", "user_login", "created_at", "closed_at"],
         "contributors.parquet":  ["login", "contributions"]
